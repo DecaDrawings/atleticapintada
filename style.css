@@ -147,6 +147,8 @@ nav
     grid-template-areas: "as-colun-left as-colun-central as-colun-right";
     grid-template-columns: 1fr 1fr 1fr;
     padding: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
     background-color: #e6ebff;
 }
 .associacaoColunas{
