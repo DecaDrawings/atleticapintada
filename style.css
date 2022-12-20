@@ -275,6 +275,7 @@ nav
     font-weight: bold;
     border-radius: 20px;
     transition: 0.25s;
+    cursor: grab;
 }
 .associacaoColunas input:hover, .associacaoColunas input:focus{
     background-color: #07163c;    
