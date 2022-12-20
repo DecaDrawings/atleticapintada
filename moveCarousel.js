@@ -1,3 +1,4 @@
 var nav = document.querySelector("nav");
 var navHeight = nav.clientHeight;
-document.getElementsByClassName("carrossel")[0].style.paddingTop = (navHeight + 18) +  "px";
+var carrossel = document.getElementsByClassName("carrossel")[0];
+carrossel.style.paddingTop = (navHeight + 18) +  "px";
