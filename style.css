@@ -153,6 +153,10 @@ nav
     padding: 20px;
     border-right: 2px solid #fdc203;
 }
+.associacao-colunm3
+{
+    border: none !important;
+}
 .associacao-title 
 {
     text-align: center;
