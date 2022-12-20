@@ -8,15 +8,12 @@ nav
     width: 100%;
     min-height: 300px;
     background-color: #07163C;
-    display: grid;
-    grid-template-areas: "titulo"
-                          "menu";
-    grid-template-columns: 100%;
+    display: flex;
+    flex-direction: column;
     padding: 10px;                      
 }
 .nav-box-titulo
-{
-    grid-area: titulo;
+{   
     display: flex;
     flex-direction: row;
 }
@@ -39,16 +36,22 @@ nav
 }
 .nav-box-menu
 {
-    height: 100px;
+    height: 50px;
     background-color: #020818be;
     display: flex;
     justify-items: center;
     width: 100%;
 }
+.nav-box-menuDispositivos
+{
+    display: none;
+}
 .menu-list
 {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
     width: 100%;
     justify-content: center;
 }
