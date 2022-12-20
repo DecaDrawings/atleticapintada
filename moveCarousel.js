@@ -1,3 +1,3 @@
 var nav = document.querySelector("nav");
-var navHeight = nav.style.height;
+var navHeight = nav.offsetHeight;
 document.getElementsByClassName("container-fluid")[0].style.marginTop = navHeight;
