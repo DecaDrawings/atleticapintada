@@ -107,7 +107,7 @@ nav
 }
 #carouselExampleIndicators .carousel-inner, #mainSlider .carousel-item
 {
-    height: 90vh;
+    height: 40vh;
 }
 .carousel-caption
 {
