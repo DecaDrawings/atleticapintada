@@ -143,13 +143,20 @@ nav
 .box-associacao-content
 {
     grid-gap: 10px;
+    display: grid;    
+    grid-template-columns: 60%;
+    padding: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: #e6ebff;
+}
+.box-associacao-box
+{
+    width: 100%;
+    grid-gap: 10px;
     display: grid;
     grid-template-areas: "as-colun-left as-colun-central as-colun-right";
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 20px;
-    padding-right: 100px;
-    padding-left: 100px;
-    background-color: #e6ebff;
 }
 .associacaoColunas{
     text-align: center;
