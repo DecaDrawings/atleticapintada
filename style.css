@@ -203,7 +203,11 @@ nav
 }
 .associacao-text-content
 {
-    margin-bottom: 30px;
+    margin-bottom: 30px;    margin-bottom: 30px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
 }
 .associacao-ul
 {
@@ -230,11 +234,17 @@ nav
 }
 .price-1, .price-2
 {
+    background-color: #fdc203;
+    border-radius: 10px;
+    width: fit-content;
     display: flex;
     justify-content: center;
     align-items: baseline;
     flex-direction: row;
     font-size: 2rem;
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
     font-weight: bold;
 }
 .price-1 p:nth-child(1), .price-2 p:nth-child(1)
