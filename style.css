@@ -211,7 +211,8 @@ nav
     border-radius: 20px;
     transition: background-color 1s;
 }
-.associacaoColunas input:hover{
-    background-color: #07163c;
+.associacaoColunas input:hover, .associacaoColunas input:focus{
+    box-shadow: inset 6.5em 0 0 0 #07163c;
+    
     color: white;
 }
