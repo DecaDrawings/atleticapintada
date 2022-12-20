@@ -212,6 +212,6 @@ nav
     transition: linear;
 }
 .associacaoColunas input:hover{
-    background-color: 07163c;
+    background-color: #07163c;
     color: white;
 }
