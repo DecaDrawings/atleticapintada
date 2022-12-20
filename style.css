@@ -170,6 +170,7 @@ nav
     box-shadow: 2px 2px 6px #abafc5;
     width: 100%;
     height: 100%;
+    padding-bottom: 70px
 }
 .associacao-colunm1
 {
@@ -200,6 +201,10 @@ nav
     background-color: #07163c;
     z-index: 20;
 }
+.associacao-text-content
+{
+    margin-bottom: 30px;
+}
 .associacao-ul
 {
     text-align: initial;
@@ -224,6 +229,13 @@ nav
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.price-1 p:nth-child(1), .price-2 p:nth-child(1)
+{
+    font-size: 1.2rem;
+    color: #07163c;
 }
 .associacaoColunas input{
     width: 60%;
