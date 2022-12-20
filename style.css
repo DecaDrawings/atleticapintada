@@ -73,6 +73,7 @@ nav
 }
 .menu-list li:hover{
     background-color: #041133be;
+    cursor: grab;
 }
 .navIcons
 {
