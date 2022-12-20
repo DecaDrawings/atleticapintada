@@ -130,6 +130,24 @@ nav
 #carouselExampleIndicators .carousel-caption p{
     font-size: 2vw;
     font-weight: 300;
-    color: white;
-    
+    color: white;    
+}
+.box-associacao
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;       
+}
+.box-associacao-content
+{
+    display: grid;
+    grid-template-areas: "as-colun-left as-colun-central as-colun-right";
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.associacaoColunas{
+    text-align: center;
+}
+.associacaoColunas h2{
+    font-size: 1rem;
+    margin-bottom: 20px;
 }
