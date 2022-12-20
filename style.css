@@ -162,6 +162,20 @@ nav
     text-align: center;
     padding: 20px;
 }
+.associacao-title::after{
+    content: "";
+    top: 68px;
+    width: 120px;     
+    left: calc(50% - 61px);    
+    height: 7px;
+    color: #07163c;
+    position: absolute;
+    background-color: #07163c;
+    z-index: 20;
+}
+.associacao-title h2{
+
+}
 
 .associacao-ul
 {
