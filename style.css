@@ -114,6 +114,7 @@ nav
     margin-bottom: 100px;
 }
 #carouselExampleIndicators .carousel-caption p{
+    margin-bottom: 100px;
     font-size: 22px;
     font-weight: 300;
     color: white;
