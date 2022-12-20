@@ -69,7 +69,7 @@ nav
     display: flex;
     padding: 15px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 .menu-list li:hover{
     background-color: #041133be;
