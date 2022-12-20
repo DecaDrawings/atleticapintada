@@ -211,9 +211,24 @@ nav
 }
 .associacao-ul
 {
+    position: relative;
     text-align: initial;
     font-size: 1.2rem;
 }
+.associacao-ul li{
+    padding-left: 17px;
+}
+.associacao-ul li::after{
+    content: "";
+    width: 10px;
+    margin-top: 10px;
+    left: 0;
+    position: absolute;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #07163c;
+}
+
 .associacaoColunas h2
 {
     color: #111111;
