@@ -144,7 +144,7 @@ nav
 {
     grid-gap: 10px;
     display: grid;    
-    grid-template-columns: 60%;
+    grid-template-columns: 80%;
     padding: 20px;
     padding-right: 0px;
     padding-left: 0px;
@@ -157,6 +157,8 @@ nav
     display: grid;
     grid-template-areas: "as-colun-left as-colun-central as-colun-right";
     grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
 }
 .associacaoColunas{
     text-align: center;
