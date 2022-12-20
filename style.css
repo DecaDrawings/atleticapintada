@@ -113,7 +113,7 @@ nav
 {
     height: 100%;
 }
-.carousel-item
+.carousel-item img
 {
     filter: brightness(0.3);
 }
