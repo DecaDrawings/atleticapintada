@@ -145,15 +145,25 @@ nav
     display: grid;
     grid-template-areas: "as-colun-left as-colun-central as-colun-right";
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
 }
 .associacaoColunas{
     text-align: center;
+    padding: 20px;
+}
+.associacao-title 
+{
+    text-align: center;
+    padding: 20px;
 }
 .associacaoColunas h2
 {
     color: #111111;
     font-size: 1rem;
     margin-bottom: 20px;
+}
+.associacao-text-content p, .associacao-ul li{
+    margin-bottom: 5px !important;
 }
 .box-associacao p, .box-associacao li, .box-associacao h2{
     color: #111111;
