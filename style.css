@@ -20,6 +20,7 @@ nav
 }
 .nav-box-titulo
 {   
+    margin-bottom: 20px;
     display: flex;
     width: 100%;
     flex-direction: row;
@@ -28,6 +29,7 @@ nav
 }
 .navIconeAtletica
 {
+    margin-right: 30px;
     max-width: 100px;
 }
 .navTitulos
@@ -68,6 +70,9 @@ nav
     padding: 15px;
     align-items: center;
     justify-content: space-between;
+}
+.menu-list li:hover{
+    background-color: #041133be;
 }
 .navIcons
 {
