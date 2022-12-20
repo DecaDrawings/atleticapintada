@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -120,11 +122,11 @@ nav
     filter: brightness(0.3);
 }
 #carouselExampleIndicators .carousel-caption h2{
-    font-size: 50px;
-    
+    font-size: 4vw;
+    font-family: 'Gloria Hallelujah', cursive;
 }
 #carouselExampleIndicators .carousel-caption p{
-    font-size: 22px;
+    font-size: 2vw;
     font-weight: 300;
     color: white;
     
