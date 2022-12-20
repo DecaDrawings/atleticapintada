@@ -1,3 +1,3 @@
 var nav = document.querySelector("nav");
 var navHeight = nav.offsetHeight;
-document.getElementsByClassName("container-fluid")[0].style.marginTop = navHeight + "px";
+document.getElementsByClassName("carrossel")[0].style.paddingTop = navHeight + 14 +  "px";
