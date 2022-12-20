@@ -142,6 +142,7 @@ nav
 }
 .box-associacao-content
 {
+    grid-gap: 10px;
     display: grid;
     grid-template-areas: "as-colun-left as-colun-central as-colun-right";
     grid-template-columns: 1fr 1fr 1fr;
@@ -151,12 +152,12 @@ nav
 .associacaoColunas{
     text-align: center;
     padding: 20px;
-    border-right: 2px solid #fdc203;
+    border-right: 4px solid #fdc203;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 6px #abafc5;
 }
-.associacao-colunm3
-{
-    border: none !important;
-}
+
 .associacao-title 
 {
     text-align: center;
