@@ -135,7 +135,7 @@ nav
 }
 .box-associacao
 {
-    
+    background-color: #fdc203;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;       
@@ -146,6 +146,7 @@ nav
     grid-template-areas: "as-colun-left as-colun-central as-colun-right";
     grid-template-columns: 1fr 1fr 1fr;
     padding: 20px;
+    background-color: #e6ebff;
 }
 .associacaoColunas{
     text-align: center;
@@ -161,6 +162,7 @@ nav
     color: #111111;
     font-size: 1rem;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 .associacao-text-content p, .associacao-ul li{
     margin-bottom: 5px !important;
