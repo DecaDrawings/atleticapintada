@@ -120,6 +120,7 @@ nav
 .carousel-item img
 {
     filter: brightness(0.3);
+    transform: translateY(-20%)
 }
 #carouselExampleIndicators .carousel-caption h2{
     font-size: 4vw;
