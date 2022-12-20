@@ -109,10 +109,7 @@ nav
     padding-left: 0px !important;
     padding-right: 0px !important;
 }
-.carrossel
-{
-    box-sizing: content-box;
-}
+
 #carouselExampleIndicators .carousel-inner, #mainSlider .carousel-item.active
 {
     max-height: 80vh;
@@ -138,7 +135,7 @@ nav
 }
 .box-associacao
 {
-    color: #111111;
+    
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;       
@@ -153,6 +150,10 @@ nav
     text-align: center;
 }
 .associacaoColunas h2{
+    color: #111111;
     font-size: 1rem;
     margin-bottom: 20px;
+}
+.associacaoColunas p{
+    color: #111111;
 }
