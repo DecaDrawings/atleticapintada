@@ -27,7 +27,7 @@ nav
     /*background-color: #07163C;*/
     display: flex;
     flex-direction: column;
-    padding-top: 10px;
+    
     align-items: center;
     justify-content: space-around;                     
 }
