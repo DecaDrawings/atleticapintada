@@ -63,7 +63,7 @@ nav
     flex-wrap: wrap;
     flex-flow: row wrap;
     width: 100%;
-    justify-content: space-around;
+    justify-content: center;
 }
 .menu-list li{
     display: flex;
