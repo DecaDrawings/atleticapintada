@@ -212,7 +212,7 @@ nav
     transition: 0.25s;
 }
 .associacaoColunas input:hover, .associacaoColunas input:focus{
-    box-shadow: inset 500px 0 0 0 #07163c;
+    box-shadow: inset 10em 0 0 0 #07163c;
     
     color: white;
 }
