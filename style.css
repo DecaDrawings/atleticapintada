@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
-
+@media only screen and (max-width: 800px) {
+    .box-associacao-box {
+        grid-template-areas: "as-colun-left" "as-colun-central" "as-colun-right";
+        grid-template-columns: 100%;
+    }
+}
+/*==============================================*/
 *{
     margin: 0;
     padding: 0;
