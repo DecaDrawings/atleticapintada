@@ -151,11 +151,16 @@ nav
 .associacaoColunas{
     text-align: center;
     padding: 20px;
+    border-right: 2px solid #fdc203;
 }
 .associacao-title 
 {
     text-align: center;
     padding: 20px;
+}
+.associacao-ul
+{
+    text-align: initial;
 }
 .associacaoColunas h2
 {
@@ -163,6 +168,7 @@ nav
     font-size: 1rem;
     margin-bottom: 20px;
     font-weight: bold;
+    font-size: 1.2rem;
 }
 .associacao-text-content p, .associacao-ul li{
     margin-bottom: 5px !important;
