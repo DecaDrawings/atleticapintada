@@ -112,11 +112,11 @@ nav
 
 #carouselExampleIndicators .carousel-inner, #mainSlider .carousel-item.active
 {
-    max-height: 80vh;
+    max-height: 50vw;
 }
 .carousel-item
 {
-    max-height: 80vh;
+    max-height: 50vw;
     height: 100% !important;
 }
 .carousel-item img
