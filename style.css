@@ -89,6 +89,10 @@ nav
     background-color: #041133be;
     cursor: grab;
 }
+.active
+{
+    background-color: #041133be;
+}
 .navIcons
 {
     margin-right: 10px;
