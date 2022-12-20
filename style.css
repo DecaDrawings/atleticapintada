@@ -102,6 +102,8 @@ nav
 .container-fluid
 {
     padding: 0;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 #carouselExampleIndicators .carousel-inner, #mainSlider .carousel-item
 {
