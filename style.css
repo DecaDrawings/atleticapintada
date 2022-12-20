@@ -3,7 +3,7 @@
 @media only screen and (max-width: 800px) {
     .box-associacao-box {
         grid-template-areas: "as-colun-left" "as-colun-central" "as-colun-right" !important;
-        grid-template-columns: 100%;
+        grid-template-columns: 100% !important;
     }
 }
 /*==============================================*/
