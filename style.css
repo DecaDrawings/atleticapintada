@@ -208,6 +208,7 @@ nav
 .associacao-ul
 {
     text-align: initial;
+    font-size: 1.2rem;
 }
 .associacaoColunas h2
 {
@@ -223,11 +224,15 @@ nav
 .box-associacao p, .box-associacao li, .box-associacao h2{
     color: #111111;
 }
+.associacao-text-content-lote
+{
+    font-size: 1.2rem;
+}
 .price-1, .price-2
 {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     flex-direction: row;
     font-size: 2rem;
     font-weight: bold;
