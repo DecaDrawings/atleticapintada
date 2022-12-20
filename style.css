@@ -9,3 +9,8 @@ nav
     min-height: 300px;
     background-color: #07163C;
 }
+.navIcons
+{
+    width: 20px;
+    height: 20px;
+}
