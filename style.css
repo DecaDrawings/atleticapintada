@@ -91,6 +91,7 @@ nav
 }
 .navIcons
 {
+    margin-right: 10px;
     width: 2.6rem;    
     border-radius: 50%;
 }
