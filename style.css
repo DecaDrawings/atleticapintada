@@ -155,6 +155,6 @@ nav
     font-size: 1rem;
     margin-bottom: 20px;
 }
-.associacaoColunas p, .associacaoColunas h2, .associacaoColunas li{
+.box-associacao p, .box-associacao li, .box-associacao h2{
     color: #111111;
 }
