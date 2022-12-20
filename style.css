@@ -9,16 +9,19 @@
 }
 nav::before{
     content: "";
-    position: relative;
-    background-image: url("images/FundoNav.png");
+    position: absolute;
+    z-index: -1;
+    background-image: url(images/FundoNav.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     filter: brightness(30%);
     width: 100%;
     height: 100%;
 }
 nav
 {
+    position: absolute;
     width: 100%;
     min-height: 125px;
     /*background-color: #07163C;*/
@@ -57,7 +60,7 @@ nav
 }
 .nav-box-menu
 {    
-    background-color: #020818be;
+    background-color: #020818e6;
     display: flex;
     justify-items: center;
     width: 100%;
