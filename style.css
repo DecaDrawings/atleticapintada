@@ -209,7 +209,7 @@ nav
     color: #07163c;
     font-weight: bold;
     border-radius: 20px;
-    transition: linear;
+    transition: background-color 1s;
 }
 .associacaoColunas input:hover{
     background-color: #07163c;
