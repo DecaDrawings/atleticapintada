@@ -144,7 +144,7 @@ nav
 {
     grid-gap: 10px;
     display: grid;    
-    grid-template-columns: 80%;
+    grid-template-columns: 100%;
     padding: 20px;
     padding-right: 0px;
     padding-left: 0px;
@@ -152,7 +152,7 @@ nav
 }
 .box-associacao-box
 {
-    width: 100%;
+    width: 80%;
     grid-gap: 10px;
     display: grid;
     grid-template-areas: "as-colun-left as-colun-central as-colun-right";
@@ -168,7 +168,18 @@ nav
     background-color: white;
     box-shadow: 2px 2px 6px #abafc5;
 }
-
+.associacao-colunm1
+{
+    grid-area: as-colun-left;
+}
+.associacao-colunm2
+{
+    grid-area: as-colun-central;
+}
+.associacao-colunm3
+{
+    grid-area: as-colun-right;
+}
 .associacao-title 
 {
     text-align: center;
