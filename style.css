@@ -288,7 +288,7 @@ nav
 }
 .box-instagram-content
 {
-    padding: 20px;
+    
     display: flex;
     flex-direction: row;
 }
@@ -302,6 +302,7 @@ nav
     width: 100%;    
     padding: 50px;
     padding-right: 0;
+    padding-left: 0;
     box-sizing: content-box;
 }
 .box-instagram-caption
