@@ -75,6 +75,10 @@
         min-width: 300px !important;    
         width: 70% !important;
     }
+    .box-instagram-caption
+    {
+        width: 100% !important;
+    }
 }
 /*==============================================*/
 *{
