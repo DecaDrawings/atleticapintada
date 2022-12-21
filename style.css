@@ -115,12 +115,12 @@ nav
     display: none;
 }
 .menu-list li:hover{
-    background-color: #041133be;
+    background-color: #07163c;
     cursor: grab;
 }
 .atual
 {
-    background-color: #041133be;
+    background-color: #07163c;
 }
 .navIcons
 {
