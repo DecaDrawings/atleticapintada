@@ -14,14 +14,21 @@
     {
         display: initial;
     }
+    .label-menu-buttom:checked ~ .nav-box-menu
+    {
+        display: initial !important;
+    }
     .nav-box-menu
     {
         position: absolute;
-        top: 100%; left: 0; right: 0;
+        top: 96px; left: 0; right: 0;
         z-index: 1;
+        display: none !important;
     }
     .box-menu-buttom
     {
+        background-color: #020818e6;
+        padding: 20px;
         display: flex !important;
         justify-content: flex-start;
         width: 100%;
