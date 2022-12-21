@@ -97,10 +97,22 @@ nav
     align-items: center;
     justify-content: center;
 }
+.li-diretorias
+{
+    position: relative;
+}
+.li-diretorias:hover > ul{
+    display: initial;
+}
 .menu-list-diretorias
 {
     position: absolute;
     left: 0;
+    z-index: 10;
+    top: 0;
+    left: 142px;
+    background-color: #07163c;
+    display: none;
 }
 .menu-list li:hover{
     background-color: #041133be;
