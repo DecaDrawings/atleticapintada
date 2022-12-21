@@ -9,16 +9,16 @@
     {
         display: initial;
     }
-    nav
+    .nav-box-menu
     {
         position: absolute;
         top: 100%; left: 0; right: 0;
     }
-    nav ul li
+    .nav-box-menu ul li
     {
         width: 100%;
     }
-    nav ul li ul
+    .nav-box-menu ul li ul
     {
         position: relative;
         width: 100%;
