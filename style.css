@@ -19,7 +19,7 @@
         position: absolute;
         top: 96px; left: 0; right: 0;
         z-index: 1;
-        display: none;
+        visibility: hidden;
     }
     .box-menu-buttom
     {

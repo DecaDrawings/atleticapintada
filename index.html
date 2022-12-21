@@ -186,9 +186,9 @@
     var menuVisible = document.getElementsByClassName("nav-box-menu")[0];
     navMenuSelect.addEventListener('change', function() {
   if (this.checked) {
-    document.getElementsByClassName("nav-box-menu")[0].style.display = "flex !important";
+    document.getElementsByClassName("nav-box-menu")[0].style.visibility = "visible";
   } else {
-    document.getElementsByClassName("nav-box-menu")[0].style.display = "none !important";
+    document.getElementsByClassName("nav-box-menu")[0].style.visibility = "hidden";
   }
 });
 
