@@ -97,6 +97,11 @@ nav
     align-items: center;
     justify-content: center;
 }
+.menu-list-diretorias
+{
+    position: absolute;
+    left: 0;
+}
 .menu-list li:hover{
     background-color: #041133be;
     cursor: grab;
