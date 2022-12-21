@@ -22,7 +22,7 @@
     }
     .box-menu-buttom
     {
-        display: initial;
+        display: initial !important;
     }
     .menu-list li
     {
