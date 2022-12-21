@@ -221,7 +221,7 @@ nav
     position: relative;
     text-align: initial;
     font-size: 1.2rem;
-    color: #111111;
+    color: #111111 !important;
 }
 .associacao-ul li{
     padding-left: 17px;
