@@ -297,6 +297,10 @@ nav
     width: 30%;
     background-color: #07163c;
 }
+.box-instagram-img img
+{
+    width: 100%;    
+}
 .box-instagram-caption
 {
     padding: 20px;
