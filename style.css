@@ -300,18 +300,18 @@ nav
 .box-instagram-img img
 {
     width: 100%;    
-    padding: 50px;
-    padding-right: 0;
-    padding-left: 0;
     box-sizing: content-box;
 }
 .box-instagram-caption
 {
-    color: #111111  !important;
+    color: #111111 !important;
     padding: 20px;
+    display: flex;
     width: 70%;
     background-color: aliceblue;
     text-align: center;
+    align-items: center;
+    font-family: 'Gloria Hallelujah', cursive;
 }
 .instagram-text
 {
