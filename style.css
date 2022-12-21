@@ -295,7 +295,9 @@ nav
 .box-instagram-img
 {
     width: 30%;
+    display: flex;
     background-color: #07163c;
+    align-items: center;
 }
 .box-instagram-img img
 {
@@ -304,6 +306,7 @@ nav
 }
 .box-instagram-caption
 {
+    padding: 50px;
     color: #111111 !important;
     padding: 20px;
     display: flex;
