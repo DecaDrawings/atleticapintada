@@ -456,21 +456,21 @@ nav
     font-family: 'Roboto Condensed', sans-serif;
     color: #111111  !important;
 }
-foot {
-    background-color: #07163c;
-    padding: 20px;
-}
 .foot-content
 {
+   background-color: #07163c;
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
    justify-content: center;
+   justify-content: space-around;
+    align-items: center;
 }
 .foot-coluna
 {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .foot-icon
 {
