@@ -404,6 +404,7 @@ nav
     display: flex;
     background-color: #07163c;
     align-items: center;
+    position: relative;
 }
 .box-instagram-img::after
 {   
