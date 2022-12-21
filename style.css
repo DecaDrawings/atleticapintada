@@ -20,6 +20,10 @@
         top: 100%; left: 0; right: 0;
         z-index: 1;
     }
+    .box-menu-buttom
+    {
+        display: initial;
+    }
     .menu-list li
     {
         padding-right: 0;
@@ -148,7 +152,7 @@ nav
     background-color: #0a1f53;
     cursor: grab;
 }
-#menu-buttom
+.box-menu-buttom
 {
     display: none;
 }
@@ -156,8 +160,7 @@ nav
 {
     font-size: 20px;
     color: #1111 !important;
-    cursor: grab;
-    display: none;
+    cursor: grab;    
 }
 .atual
 {
