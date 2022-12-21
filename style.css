@@ -241,7 +241,7 @@ nav
 .associacao-text-content p, .associacao-ul li{
     margin-bottom: 5px !important;
 }
-.box-associacao p, .box-associacao li, .box-associacao h2{
+.box-associacao p, .box-associacao li, .box-associacao h2, .associacao-ul b{
     color: #111111;
 }
 .associacao-text-content-lote
