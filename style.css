@@ -307,7 +307,7 @@ nav
 }
 .box-instagram-caption
 {
-    color: #07163c;
+    color: #111111  !important;
     padding: 20px;
     width: 70%;
     background-color: aliceblue;
