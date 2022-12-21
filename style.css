@@ -22,7 +22,17 @@
     }
     .box-menu-buttom
     {
-        display: initial !important;
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .box-menu-buttom label
+    {
+        max-width: 50px;
+    }
+    .box-menu-buttom input
+    {
+        display: none !important;
     }
     .menu-list li
     {
