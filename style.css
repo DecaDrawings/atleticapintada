@@ -14,6 +14,10 @@
     {
         display: initial;
     }    
+    .nav-box-titulo
+    {
+        padding: 20px;
+    }
     .nav-box-menu
     {
         position: absolute;
@@ -52,6 +56,20 @@
         left: 0;
         margin-left: 20px;
     }    
+    .box-instagram-content
+    {
+        
+    }
+    .box-instagram-img
+    {
+        width: 100%;
+        padding: 35px;
+    }
+    .box-instagram-img img
+    {
+        min-width: 300px;    
+        width: 70%;
+    }
 }
 /*==============================================*/
 *{
@@ -366,12 +384,13 @@ nav
 }
 .box-instagram-content
 {
-    
+    justify-content: center;
     display: flex;
     flex-direction: row;
 }
 .box-instagram-img
 {
+    min-width: 300px;
     width: 30%;
     display: flex;
     background-color: #07163c;
