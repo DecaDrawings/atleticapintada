@@ -25,13 +25,13 @@
     .nav-box-menu
     {
         position: absolute;
-        top: 96px; left: 0; right: 0;
+        top: 83px; left: 0; right: 0;
         z-index: 1;
         visibility: hidden;
     }
     .box-menu-buttom
     {
-        background-color: #020818e6;
+        background-color: rgba(2, 8, 24, 0.8);;
         padding: 20px;
         display: flex !important;
         justify-content: flex-start;
