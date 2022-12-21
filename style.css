@@ -14,6 +14,10 @@
     {
         display: initial;
     }    
+    .label-menu-buttom img
+    {
+        width: 100%;
+    }
     .nav-box-titulo
     {
         padding: 20px;
@@ -35,7 +39,7 @@
     }
     .box-menu-buttom label
     {
-        max-width: 50px;
+        max-width: 35px;
     }
     .box-menu-buttom input
     {
@@ -64,6 +68,7 @@
     {
         width: 100% !important;
         padding: 35px;
+        justify-content: center;
     }
     .box-instagram-img img
     {
