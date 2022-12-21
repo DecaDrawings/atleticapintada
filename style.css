@@ -311,9 +311,10 @@ nav
     background-color: aliceblue;
     text-align: center;
     align-items: center;
-    font-family: 'Gloria Hallelujah', cursive;
+    
 }
 .instagram-text
 {
+    font-family: 'Gloria Hallelujah', cursive;
     color: #111111  !important;
 }
