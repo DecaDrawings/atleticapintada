@@ -19,7 +19,7 @@
         position: absolute;
         top: 96px; left: 0; right: 0;
         z-index: 1;
-        display: none !important;
+        display: none;
     }
     .box-menu-buttom
     {
@@ -120,7 +120,7 @@ nav
 .nav-box-menu
 {    
     background-color: #020818e6;
-    display: flex;
+    
     justify-items: center;
     width: 100%;
 }
