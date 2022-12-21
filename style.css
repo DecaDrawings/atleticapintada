@@ -124,6 +124,10 @@ nav
     justify-items: center;
     width: 100%;
 }
+#menu-buttom:checked ~ .nav-box-menu
+{
+    visibility: visible;
+}
 .nav-box-menuDispositivos
 {
     display: none;
