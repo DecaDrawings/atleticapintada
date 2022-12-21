@@ -22,7 +22,7 @@
     }
     .box-menu-buttom
     {
-        display: flex;
+        display: flex !important;
         justify-content: flex-start;
         width: 100%;
     }
