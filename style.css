@@ -442,7 +442,8 @@ nav
     background-color: aliceblue;
     text-align: center;
     align-items: center;
-    
+    font-size: 1.5vw;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 .instagram-text
 {
