@@ -153,8 +153,7 @@ nav
     grid-template-columns: 100%;
     padding: 20px;
     padding-right: 0px;
-    padding-left: 0px;
-    background-color: #e6ebff;
+    padding-left: 0px; 
     justify-items: center;
 }
 .box-associacao-box
@@ -174,7 +173,7 @@ nav
     border-right: 4px solid #fdc203;
     border-radius: 20px;
     background-color: white;
-    box-shadow: 2px 2px 6px #abafc5;
+    box-shadow: 2px 2px 6px #9b7600;;
     width: 100%;
     height: 100%;
     padding-bottom: 70px
@@ -222,6 +221,7 @@ nav
     position: relative;
     text-align: initial;
     font-size: 1.2rem;
+    color: #111111;
 }
 .associacao-ul li{
     padding-left: 17px;
