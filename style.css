@@ -14,7 +14,7 @@
     {
         display: initial;
     }
-    .menu-buttom:checked ~ .nav-box-menu
+    #menu-buttom:checked ~ .nav-box-menu
     {
         display: initial !important;
     }
