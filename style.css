@@ -58,17 +58,17 @@
     }    
     .box-instagram-content
     {
-        
+        flex-wrap: wrap;
     }
     .box-instagram-img
     {
-        width: 100%;
+        width: 100% !important;
         padding: 35px;
     }
     .box-instagram-img img
     {
-        min-width: 300px;    
-        width: 70%;
+        min-width: 300px !important;    
+        width: 70% !important;
     }
 }
 /*==============================================*/
