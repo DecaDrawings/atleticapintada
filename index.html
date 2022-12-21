@@ -183,9 +183,9 @@
 <script src="instagramGet.js"></script>
 <script>
     var navMenuSelect = document.getElementById("menu-buttom");
-    navMenuSelect.addEventListener("select", function (){
-        var menuVisible = document.getElementsByClassName("nav-box-menu")[0];
-        menuVisible.style.display = "flex";
+    var menuVisible = document.getElementsByClassName("nav-box-menu")[0];
+    navMenuSelect.addEventListener("chenge", function (){        
+       if(this.checked){ menuVisible.style.display = "flex"; }
     });
 
 </script>
