@@ -300,9 +300,13 @@ nav
 .box-instagram-img img
 {
     width: 100%;    
+    padding: 50px;
+    padding-right: 0;
+    box-sizing: content-box;
 }
 .box-instagram-caption
 {
+    color: #07163c;
     padding: 20px;
     width: 70%;
     background-color: aliceblue;
