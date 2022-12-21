@@ -282,3 +282,25 @@ nav
     background-color: #07163c;    
     color: white;
 }
+.box-instagram
+{
+    width: 100%;
+}
+.box-instagram-content
+{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.box-instagram-img
+{
+    width: 30%;
+    background-color: #07163c;
+}
+.box-instagram-caption
+{
+    padding: 20px;
+    width: 70%;
+    background-color: aliceblue;
+    text-align: center;
+}
