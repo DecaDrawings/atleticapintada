@@ -4,6 +4,10 @@
     font-family: Better Yesterday;
     src: url("fonts/Better\ Yesterday.otf");
  }
+ @font-face {
+    font-family: LilJohnny;
+    src: url("fonts/LilJohnny_PERSONAL_USE_ONLY.otf");
+ }
 @media only screen and (max-width: 800px) {
     main 
     {
@@ -91,7 +95,7 @@
     box-sizing: border-box;    
     color: white;
     list-style-type: none;
-    font-family: 'Roboto Condensed', sans-serif;;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 nav::before{
     content: "";
@@ -242,7 +246,7 @@ nav
     transform: translateY(-20%)
 }
 #carouselExampleIndicators .carousel-caption h2{
-    font-size: 4vw;
+    font-size: 8vw;
     font-family: Better Yesterday;
 }
 #carouselExampleIndicators .carousel-caption p{
@@ -442,10 +446,10 @@ nav
 }
 .instagram-text
 {
-    font-family: Better Yesterday;
+    font-family: LilJohnny;
     color: #111111  !important;
 }
 .instagram-text b{
-    font-family: Better Yesterday;
+    font-family: 'Roboto Condensed', sans-serif;
     color: #111111  !important;
 }
