@@ -287,7 +287,7 @@ nav
     padding: 20px;
     border-right: 4px solid #fdc203;
     border-radius: 20px;
-    background-color: white;
+    background-color: aliceblue;
     box-shadow: 2px 2px 6px #9b7600;;
     width: 100%;
     height: 100%;
@@ -455,4 +455,27 @@ nav
 .box-instagram-caption b{
     font-family: 'Roboto Condensed', sans-serif;
     color: #111111  !important;
+}
+foot {
+    background-color: #07163c;
+    padding: 20px;
+}
+.foot-content
+{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.foot-coluna
+{
+    display: flex;
+    flex-direction: column;
+}
+.foot-icon
+{
+    max-width: 100px;    
+}
+.foot-icon img{
+    width: 100%;
 }
