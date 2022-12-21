@@ -13,11 +13,7 @@
     .label-menu-buttom
     {
         display: initial;
-    }
-    #menu-buttom:checked ~ .nav-box-menu
-    {
-        display: flex;
-    }
+    }    
     .nav-box-menu
     {
         position: absolute;
