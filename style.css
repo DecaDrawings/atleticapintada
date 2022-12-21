@@ -16,7 +16,7 @@
     }
     #menu-buttom:checked ~ .nav-box-menu
     {
-        display: initial !important;
+        display: flex;
     }
     .nav-box-menu
     {
