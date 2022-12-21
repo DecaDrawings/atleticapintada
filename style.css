@@ -405,6 +405,19 @@ nav
     background-color: #07163c;
     align-items: center;
 }
+.box-instagram-img::after
+{   
+    content: "@atleticamedufms";
+    width: 100%;
+    text-align: center;
+    color: #7a7a7a;
+    padding: 12px;
+    position: absolute;
+    box-sizing: border-box;
+    bottom: 0;
+    height: 49px;
+    background-color: #01061496;
+}
 .box-instagram-img img
 {
     width: 100%;    
