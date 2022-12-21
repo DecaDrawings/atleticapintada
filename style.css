@@ -5,6 +5,24 @@
         grid-template-areas: "as-colun-left" "as-colun-central" "as-colun-right" !important;
         grid-template-columns: 100% !important;
     }
+    .label-menu-buttom
+    {
+        display: initial;
+    }
+    nav
+    {
+        position: absolute;
+        top: 100%; left: 0; right: 0;
+    }
+    nav ul li
+    {
+        width: 100%;
+    }
+    nav ul li ul
+    {
+        position: relative;
+        width: 100%;
+    }    
 }
 /*==============================================*/
 *{
@@ -117,6 +135,17 @@ nav
 .menu-list li:hover{
     background-color: #0a1f53;
     cursor: grab;
+}
+#menu-buttom
+{
+    display: none;
+}
+.label-menu-buttom
+{
+    font-size: 20px;
+    color: #1111 !important;
+    cursor: grab;
+    display: none;
 }
 .atual
 {
