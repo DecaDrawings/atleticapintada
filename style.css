@@ -206,7 +206,8 @@ nav
 .nav-box-menu
 {    
     background-color: #020818e6;
-    
+    visibility: visible;
+    height: 0px;
     justify-items: center;
     width: 100%;
 }
