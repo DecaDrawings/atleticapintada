@@ -68,24 +68,33 @@
         left: 0;
         margin-left: 20px;
     }    
+    .box-instagram
+    {
+        background-color: aliceblue;
+    }
     .box-instagram-content
     {
-        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+        display: flex;        
+        flex-direction: row;
     }
     .box-instagram-img
     {
-        width: 100% !important;
-        padding: 35px;
-        justify-content: center;
+        min-width: 300px;     
+        width: 70% !important;
+        display: flex;        
+        align-items: center;
+        position: relative;
     }
     .box-instagram-img img
     {
-        min-width: 300px !important;    
-        width: 70% !important;
+        box-sizing: content-box;
+        width: 100%;
     }
     .box-instagram-caption
     {
-        width: 100% !important;
+        width: 70%;
     }
     .foot-content
     {
@@ -427,7 +436,8 @@ nav
 .box-instagram-img::after
 {   
     content: "@atleticamedufms";
-    width: 100%;
+    min-width: 300px;
+    width: 70%;
     text-align: center;
     color: #7a7a7a;
     padding: 12px;
