@@ -438,6 +438,7 @@ nav
     height: 50px;
     border: 2px solid #07163c;
     color: #07163c;
+    background-color: aliceblue;
     font-weight: bold;
     border-radius: 20px;
     transition: 0.25s;
