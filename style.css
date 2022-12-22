@@ -113,7 +113,7 @@
     }
     .box-instagram-img
     {
-        min-width: 300px;     
+         
         width: 100% !important;
         display: flex;        
         align-items: center;
@@ -459,7 +459,7 @@ nav
 }
 .box-instagram-img
 {
-    min-width: 300px;
+    
     width: 30%;
     display: flex;
     background-color: #07163c;
@@ -469,7 +469,7 @@ nav
 .box-instagram-img::after
 {   
     content: "@atleticamedufms";
-    min-width: 300px;
+    
     width: 100%;
     text-align: center;
     color: #7a7a7a;
