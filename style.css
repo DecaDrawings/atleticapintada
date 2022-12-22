@@ -71,19 +71,51 @@
     .box-instagram
     {
         background-color: aliceblue;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        position: relative;
+    }
+    .box-instagram::before {
+        content: "";
+        width: 100%;
+        position: absolute;
+        z-index: 0;
+        height: 50%;
+        background-color: #07163c;
+        top: 0;
     }
     .box-instagram-content
     {
+        box-shadow: 0px 0px 9px 0px #07163c;
         justify-content: center;
         padding: 20px;
         display: flex;        
         flex-direction: row;
         flex-wrap: wrap;
+        width: 60%;
+        position: relative;
+    }
+    .box-instagram-content::before{
+        content: "";
+        width: 50%;
+        z-index: 1;
+        text-align: center;
+        color: #07163c;
+        font-weight: bold;
+        font-family: 1;
+        padding-top: 3px;
+        top: 0;        
+        height: 20px;
+        background-color: #fdc203;
+        position: absolute;
     }
     .box-instagram-img
     {
         min-width: 300px;     
-        width: 70% !important;
+        width: 100% !important;
         display: flex;        
         align-items: center;
         position: relative;
@@ -95,7 +127,7 @@
     }
     .box-instagram-caption
     {
-        width: 70%;
+        width: 100%;
     }
     .foot-content
     {
@@ -438,7 +470,7 @@ nav
 {   
     content: "@atleticamedufms";
     min-width: 300px;
-    width: 70%;
+    width: 100%;
     text-align: center;
     color: #7a7a7a;
     padding: 12px;
