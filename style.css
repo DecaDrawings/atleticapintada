@@ -95,6 +95,7 @@
     .foot-icon
     {
         grid-row: 1;
+        margin-bottom: 30px;
     }
 }
 /*==============================================*/
@@ -482,6 +483,10 @@ nav
 }
 .foot-coluna p{
     color: #afafaf;
+}
+.foot-coluna p:hover{
+    color: #ebebeb;
+    font-weight: bold;
 }
 .foot-icon
 {
