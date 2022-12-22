@@ -206,8 +206,7 @@ nav
 .nav-box-menu
 {    
     background-color: #020818e6;
-    visibility: visible;
-    height: 0px;
+    
     justify-items: center;
     width: 100%;
 }
@@ -228,7 +227,6 @@ nav
     width: 100%;
     justify-content: center;
     margin-bottom: 0px !important;
-    padding-bottom: 20px;
 }
 .menu-list li{
     display: flex;
