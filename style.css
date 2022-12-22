@@ -227,6 +227,7 @@ nav
     width: 100%;
     justify-content: center;
     margin-bottom: 0px !important;
+    padding-bottom: 20px;
 }
 .menu-list li{
     display: flex;
