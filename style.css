@@ -526,10 +526,12 @@ nav
 }
 .foot-coluna p{
     color: #afafaf;
+    cursor: grab;
 }
 .foot-coluna p:hover{
     color: #ebebeb;
     font-weight: bold;
+    
 }
 .foot-icon
 {
