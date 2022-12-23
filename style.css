@@ -140,13 +140,12 @@
         min-height: 40vw;        
         width: 100% !important;
     }
-    .carousel-item{
-        width: 70%;
-    }
-    .carousel-inner{
+    .box-instagram .container-fluid{
         display: flex;
-        justify-items: center;
-        width: 100%;
+        justify-content: center;
+    }
+    .box-instagram #carouselInstagram{
+        width: 70%;
     }
     .foot-content
     {
