@@ -81,6 +81,8 @@
     .box-instagram .carousel-item
     {
         max-height: none !important;
+        display: flex;
+        justify-content: center;
     }
     .box-instagram::before {
         content: "";
