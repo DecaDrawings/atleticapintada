@@ -485,6 +485,7 @@ nav
     width: 100%;    
     box-sizing: content-box;
     filter: none !important;
+    transform: none !important;
 }
 .box-instagram-caption
 {
