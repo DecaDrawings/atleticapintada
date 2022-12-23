@@ -137,8 +137,7 @@
     }
     .box-instagram-caption
     {
-        min-height: 40vw;
-        max-height: 40vw;
+        min-height: 40vw;        
         width: 100% !important;
     }
     .foot-content
@@ -507,7 +506,7 @@ nav
     padding: 20px;
     display: flex;
     width: 70%;
-    max-height: 30vw;
+    
     background-color: aliceblue;
     text-align: center;
     align-items: center;
