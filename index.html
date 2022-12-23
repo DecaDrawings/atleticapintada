@@ -293,7 +293,10 @@
     });
     var navTamanho = document.getElementsByClassName("box-menu-buttom")[0].offsetHeight;
     menuVisible.style.top = navTamanho + "px";   
-    $("box-instagram-caption").shorten();
+    $(".box-instagram-caption").shorten({
+	showChars: 50,
+    });
+    
 </script>
 
 <!-- --------------END----------- -->
