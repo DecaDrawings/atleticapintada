@@ -78,6 +78,10 @@
         padding: 30px;
         position: relative;
     }
+    .box-instagram .carousel-item
+    {
+        max-height: none !important;
+    }
     .box-instagram::before {
         content: "";
         width: 100%;
