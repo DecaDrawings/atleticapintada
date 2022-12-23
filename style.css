@@ -140,6 +140,14 @@
         min-height: 40vw;        
         width: 100% !important;
     }
+    .carousel-item{
+        width: 70%;
+    }
+    .carousel-inner{
+        display: flex;
+        justify-items: center;
+        width: 100%;
+    }
     .foot-content
     {
         grid-template-columns: 100% !important;
