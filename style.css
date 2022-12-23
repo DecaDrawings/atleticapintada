@@ -136,6 +136,8 @@
     }
     .box-instagram-caption
     {
+        min-height: 40vw;
+        max-height: 40vw;
         width: 100% !important;
     }
     .foot-content
