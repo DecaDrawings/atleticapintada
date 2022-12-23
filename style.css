@@ -81,11 +81,12 @@
     .box-instagram .active
     {
         display: flex;
+        justify-content: center;
     }
     .box-instagram .carousel-item
     {
         max-height: none !important;        
-        justify-content: center;
+        
     }
     .box-instagram::before {
         content: "";
