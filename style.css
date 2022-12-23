@@ -71,21 +71,20 @@
     .box-instagram
     {
         background-color: aliceblue;
-        
+        display: flex;
         width: 100%;
         justify-content: center;
         align-items: center;
         padding: 30px;
         position: relative;
     }
-    .box-instagram .carousel-item .active
+    .box-instagram .active
     {
         display: flex;
     }
     .box-instagram .carousel-item
     {
-        max-height: none !important;
-        display: flex !important;
+        max-height: none !important;        
         justify-content: center;
     }
     .box-instagram::before {
