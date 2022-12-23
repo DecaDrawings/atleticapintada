@@ -80,7 +80,7 @@
     }
     .box-instagram .active
     {
-        display: flex;
+        display: flex !important;
         justify-content: center;
     }
     .box-instagram .carousel-item
