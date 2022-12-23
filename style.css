@@ -508,6 +508,7 @@ nav
 }
 .box-instagram-caption
 {
+    position: relative;
     padding: 50px;
     color: #111111 !important;
     padding: 20px;
@@ -571,3 +572,10 @@ nav
     width: 100%;
     margin-bottom: 10px;
 }
+.box-instagram .carousel-indicators li{
+    background-color: rgb(0 0 0 / 63%) !important;
+}
+.box-instagram .carousel-indicators li .active{
+    background-color: #0c0000 !important;
+}
+
