@@ -506,9 +506,13 @@ nav
     filter: none !important;
     transform: none !important;
 }
-.box-instagram-caption
+#carouselInstagram
 {
     position: relative;
+}
+.box-instagram-caption
+{
+    
     padding: 50px;
     color: #111111 !important;
     padding: 20px;
