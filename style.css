@@ -579,7 +579,7 @@ nav
 .box-instagram .carousel-indicators li{
     background-color: rgb(0 0 0 / 63%) !important;
 }
-.box-instagram .carousel-indicators li .active{
+.box-instagram .carousel-indicators .active{
     background-color: #0c0000 !important;
 }
 
