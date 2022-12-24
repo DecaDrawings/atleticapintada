@@ -207,9 +207,16 @@ nav
     width: 2.6rem;    
     border-radius: 50%;
 }
+.carrossel
+{
+    width: 100%;
+}
 .box-integrantes
 {
     width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: row;
 }
 .box-integrantes .carousel-control-prev, .box-integrantes .carousel-control-next
 {
@@ -224,6 +231,14 @@ nav
     display: flex;
     position: relative;
     flex-direction: row;
+}
+.carousel-inner
+{
+    display: flex;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
 }
 .carousel-item 
 {
