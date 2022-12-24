@@ -231,6 +231,7 @@ nav
     display: flex;
     position: relative;
     flex-direction: row;
+    padding: 40px;
 }
 .carousel-inner
 {
@@ -244,7 +245,7 @@ nav
 {
     font-family: 'Roboto Condensed', sans-serif;
     color: #111111  !important;
-    width: 30vw !important;
+    width: 15vw !important;
     padding: 0 !important;    
     margin-right: 30px;
 
@@ -264,7 +265,7 @@ nav
 }
 .integrante-img
 {
-    height: 30vw;
+    height: 15vw;
 }
 .integrante-informations
 {
