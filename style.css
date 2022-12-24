@@ -561,6 +561,7 @@ nav
     opacity: 1 !important;    
     box-sizing: content-box;
     position: sticky !important;
+    min-height: 150px;
 }
 .foot-content
 {
