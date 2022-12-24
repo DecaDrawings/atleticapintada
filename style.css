@@ -514,6 +514,10 @@ nav
 {
     position: relative;
 }
+.box-instagram .carousel-inner
+{
+    width: 90vw !important;
+}
 .box-instagram-caption
 {
     
