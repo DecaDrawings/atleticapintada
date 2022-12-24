@@ -468,6 +468,7 @@ nav
 }
 .box-instagram
 {
+    overflow: hidden;
     align-items: center;
     width: 100%;
     display: flex;
