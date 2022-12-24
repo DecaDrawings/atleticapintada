@@ -78,6 +78,7 @@
     color: white;
     list-style-type: none;
     font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none !important;
 }
 nav::before{
     content: "";
