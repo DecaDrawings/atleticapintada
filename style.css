@@ -536,6 +536,20 @@ nav
     color: #111111  !important;
     height: 30vw;
 }
+#carouselInstagram
+{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+}
+.carousel-control-prev, .carousel-control-next
+{
+    background-color: #000e32;
+    opacity: 1;
+    padding: 4px;
+    box-sizing: content-box;
+    position: relative;
+}
 .foot-content
 {
     background-color: #07163c;
