@@ -244,9 +244,32 @@ nav
 {
     font-family: 'Roboto Condensed', sans-serif;
     color: #111111  !important;
-    width: 20% !important;
-    padding: 0 !important;
+    width: 30vw !important;
+    padding: 0 !important;    
+    margin-right: 30px;
+
 }
+.box-instagram-content
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.integrante-img img
+{
+    box-sizing: content-box;
+    width: 100%;
+}
+.integrante-img
+{
+    height: 30vw;
+}
+.integrante-informations
+{
+    font-size: 1rem;
+    width: 100%;
+}
+
 
 /*===============================================*/
 /* show 3 items */
@@ -313,26 +336,6 @@ nav
     visibility: visible;
 }
 /*===============================================*/
-
-
-
-.box-instagram-content
-{
-    display: flex;
-    flex-direction: column;
-}
-.integrante-img img
-{
-    box-sizing: content-box;
-    width: 100%;
-}
-.integrante-informations
-{
-    font-size: 1rem;
-    width: 100%;
-}
-
-
 
 
 .foot-content
