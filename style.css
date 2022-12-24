@@ -475,6 +475,10 @@ nav
     flex-direction: row;
     background-color: #07163c;
 }
+.box-instagram .carrossel
+{
+    width: 80% !important;
+}
 .box-instagram-content
 {
     justify-content: center;
@@ -551,12 +555,12 @@ nav
     position: relative;
     flex-direction: row;
 }
-.carousel-control-prev, .carousel-control-next
+.box-instagram .carousel-control-prev, .box-instagram .carousel-control-next
 {
     background-color: #07163c;
     opacity: 1 !important;    
     box-sizing: content-box;
-    position: relative !important;
+    position: sticky !important;
 }
 .foot-content
 {
