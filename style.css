@@ -53,6 +53,10 @@
     {
         display: none !important;
     }
+    .menu-list a
+    {
+        width: 100%;
+    }
     .menu-list li
     {
         padding-right: 0;
