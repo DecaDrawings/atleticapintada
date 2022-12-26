@@ -260,6 +260,8 @@ nav {
     width: 100%;
     justify-content: center;
     align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .box-integrantes-item {
@@ -316,16 +318,9 @@ nav {
 }
 
 /*====================================================*/
-.roller-box-integrantes
+.box-integrantes-content
 {
-    transform: translateX(10vw);
-    display: flex;
-    flex-direction: row;
-    overflow: visible;
-}
-.ativo
-{
-    
+
 }
 
 
