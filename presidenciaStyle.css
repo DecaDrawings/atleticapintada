@@ -217,6 +217,7 @@ nav
 }
 .box-integrantes-content
 {
+    box-shadow: 1px 2px 6px 0px #07163c;
     margin: 20px;
     width: 20vw;
     display: flex;
@@ -229,9 +230,17 @@ nav
     display: flex;        
     align-items: center;
     position: relative;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
 }
 .integrante-img img{
     width: 100%;
+}
+.integrante-img h2{
+    position: absolute;
+    bottom: 0;
+
 }
 .integrante-informations
 {
