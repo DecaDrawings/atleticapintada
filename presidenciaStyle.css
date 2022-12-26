@@ -215,6 +215,7 @@ nav
     flex-direction: column;    
     padding-top: 50px;
     padding-bottom: 50px;
+    background-color: aliceblue;
 }
 .box-integrantes-title
 {
@@ -224,11 +225,13 @@ nav
     justify-content: center;
     align-items: center;
 }
+.box-integrantes-title p{
+    color: #111111;
+}
 .box-integrantes-content
 {
     display: flex;
-    flex-direction: row;
-    background-color: aliceblue;
+    flex-direction: row;    
     width: 100%;
     justify-content: center;
 }
