@@ -150,15 +150,6 @@
                                 <p>MED25</p>
                             </div>
                         </div>
-                        <div class="box-integrantes-item swiper-slide">
-                            <div class="integrante-img"><img src="gestao/presidencia/vicePresidente.png">
-                                <h2>Vice-Presidente</h2>
-                            </div>
-                            <div class="integrante-informations">
-                                <p>Flávio Henrique</p>
-                                <p>MED25</p>
-                            </div>
-                        </div>
                     </div>
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
@@ -223,11 +214,12 @@
 
 <script>
     var swiper = new Swiper(".swiper-integrantes", {
-      slidesPerView: 4,
+      slidesPerView: 3,
       spaceBetween: 25,      
       loop: true,
       centerSlide: 'true',
-      fade: 'true',      
+      fade: 'true',
+      loopFillGroupWithBlank: true,
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
