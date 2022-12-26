@@ -315,42 +315,7 @@ nav {
     color: #db7900;
 }
 
-.MultiCarousel {
-    float: left;
-    overflow: hidden;
-    
-    width: 100%;
-    position: relative;
-}
 
-.MultiCarousel .box-integrantes-content {
-    transition: 1s ease all;
-    float: left;
-}
-
-.MultiCarousel .box-integrantes-content .box-integrantes-item {
-    float: left;
-}
-.MultiCarousel .leftLst,
-.MultiCarousel .rightLst {
-    position: absolute;
-    border-radius: 50%;
-    top: calc(50% - 20px);
-}
-
-.MultiCarousel .leftLst {
-    left: 0;
-}
-
-.MultiCarousel .rightLst {
-    right: 0;
-}
-
-.MultiCarousel .leftLst.over,
-.MultiCarousel .rightLst.over {
-    pointer-events: none;
-    background: #ccc;
-}
 
 /*====================================================*/
 .foot-content {
