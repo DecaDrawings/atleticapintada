@@ -185,11 +185,11 @@
     buttonNext.addEventListener("click", function(){
         if(contador == numeroDeItens)
         {
-            boxRolagem.style.transform = "translateX(-"+ 10 + (numeroDeItens * 20) +"vw)";
+            boxRolagem.style.transform = "translateX(-"+ (numeroDeItens * 20 + 10) +"vw)";
             contador = 1;
         }
         else{
-            boxRolagem.style.transform = "translateX("+ 10 + (contador * 20) +"vw)";
+            boxRolagem.style.transform = "translateX("+ (contador * 20 + 10) +"vw)";
             contador++;
         }  
     });
