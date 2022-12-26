@@ -260,6 +260,9 @@ nav
     margin-bottom: 0;
     font-family: 'Bebas Neue', cursive;
 }
+.integrante-informations p:nth-of-type(2){
+    color: #fdc203;
+}
 
 
 
