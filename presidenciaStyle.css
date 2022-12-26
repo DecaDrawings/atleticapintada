@@ -285,10 +285,16 @@ nav {
     box-shadow: inset 2px 2px 12px 0px grey;
     position: relative;
 }
-.box-integrantes-item a{
+.integrante-icons
+{
     position: absolute;
-    right: 5px;
+    right: 50px;
     max-width: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.box-integrantes-item a{
+    width: 100%;
 }
 
 .integrante-img {
