@@ -207,9 +207,43 @@ nav
     width: 2.6rem;    
     border-radius: 50%;
 }
+/*==========================box-integrantes==========================*/
+.box-integrantes{
+    width: 100%;
+    display: flex;
+    flex-direction: row;    
+}
+.box-integrantes-content
+{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+.integrante-img
+{
+    width: 100% !important;
+    display: flex;        
+    align-items: center;
+    position: relative;
+}
+.integrante-img img{
+    width: 100%;
+}
+.integrante-informations
+{
+    width: 100%;
+    color: #07163c;
+    text-align: center;    
+}
+.integrante-informations p, .integrante-informations h2{
+    font-size: 1rem;
+}
 
 
 
+
+/*====================================================*/
 .foot-content
 {
     background-color: #07163c;
