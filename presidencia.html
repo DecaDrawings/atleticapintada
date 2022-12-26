@@ -252,7 +252,7 @@
     $('.carousel-control-next').on('click', function(){
         if(scrollPosition < (carouselWidth - (cardWidth * 4))){
         scrollPosition = scrollPosition + cardWidth;
-        $('.carousel-inner').animate({scrollLeft: scrollPosition},600); 
+        $('.carousel-inner').animate({scrollLeft: scrollPosition},200); 
         }
     });
     
