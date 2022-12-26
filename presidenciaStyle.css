@@ -256,7 +256,7 @@ nav
     flex-direction: column;
     background-color: aliceblue;
     height: 100%;
-    width: 35vw;
+    width: 20vw;
 }
 .integrante-img
 {
@@ -270,7 +270,8 @@ nav
 }
 .integrante-img img
 {
-    max-height: 258px;
+    width: 100%;
+    max-height: 200px;
 }
 .integrante-img h2{
     width: 100%;    
