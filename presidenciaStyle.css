@@ -318,10 +318,14 @@ nav {
 /*====================================================*/
 .roller-box-integrantes
 {
-    transform: translateX(20vw);
+    transform: translateX(10vw);
     display: flex;
     flex-direction: row;
     overflow: visible;
+}
+.ativo
+{
+    
 }
 
 
