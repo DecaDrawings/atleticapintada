@@ -257,7 +257,7 @@ nav {
     position: relative;
     display: flex;
     flex-direction: row;
-
+    width: 100%;
     justify-content: center;
     align-items: center;
 }
@@ -269,7 +269,7 @@ nav {
     flex-direction: column;
     background-color: aliceblue;
     height: 100%;
-    width: 20vw;
+    width: 20vw !important;
 }
 
 .integrante-img {
@@ -318,7 +318,7 @@ nav {
 .MultiCarousel {
     float: left;
     overflow: hidden;
-    padding: 15px;
+    
     width: 100%;
     position: relative;
 }
@@ -331,15 +331,6 @@ nav {
 .MultiCarousel .box-integrantes-content .box-integrantes-item {
     float: left;
 }
-
-.MultiCarousel .box-integrantes-content .box-integrantes-item>div {
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
-    background: #f1f1f1;
-    color: #666;
-}
-
 .MultiCarousel .leftLst,
 .MultiCarousel .rightLst {
     position: absolute;
