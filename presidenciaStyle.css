@@ -75,7 +75,7 @@
     }
 
     .swiper-wrapper {
-        justify-content: none !important;
+        justify-content: normal !important;
     }
 
     .foot-content {
