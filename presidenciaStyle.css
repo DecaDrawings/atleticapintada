@@ -307,15 +307,7 @@ nav
     flex-direction: row;
 }
 
-.carousel-inner .carousel-item-right.active,
-  .carousel-inner .carousel-item-next {
-      transform: translateX(50%);
-  }
 
-  .carousel-inner .carousel-item-left.active,
-  .carousel-inner .carousel-item-prev {
-      transform: translateX(-50%);
-  }
 
 
 
