@@ -225,8 +225,7 @@
             contador = 1;
         }
         else{
-            if(contador = 1) { boxRolagem.style.transform = "translateX(-10vw)"; }
-            else { boxRolagem.style.transform = "translateX(-"+ (contador * 20) +"vw)"; }
+            boxRolagem.style.transform = "translateX(-"+ ((contador * 20) - 10) +"vw)"; 
             contador++;
         }  
     });
