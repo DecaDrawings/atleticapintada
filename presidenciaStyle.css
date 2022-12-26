@@ -212,11 +212,27 @@ nav
 .box-integrantes{
     width: 100%;
     display: flex;
-    flex-direction: row;    
+    flex-direction: column;    
     padding-top: 50px;
     padding-bottom: 50px;
 }
+.box-integrantes-title
+{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .box-integrantes-content
+{
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    width: 100%;
+    justify-content: center;
+}
+.box-integrantes-item
 {
     box-shadow: 1px 2px 6px 0px #07163c;
     margin: 20px;
