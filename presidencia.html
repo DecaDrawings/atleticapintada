@@ -221,11 +221,12 @@
     buttonNext.addEventListener("click", function(){
         if(contador == numeroDeItens)
         {
-            boxRolagem.style.transform = "translateX("+ ((numeroDeItens-1) * 20) +"vw)";
+            boxRolagem.style.transform = "translateX("+ (numeroDeItens * 20) +"vw)";
             contador = 1;
         }
         else{
-            boxRolagem.style.transform = "translateX(-"+ (contador * 20) +"vw)";
+            if(contador = 1) { boxRolagem.style.transform = "translateX(-10vw)"; }
+            else { boxRolagem.style.transform = "translateX(-"+ (contador * 20) +"vw)"; }
             contador++;
         }  
     });
