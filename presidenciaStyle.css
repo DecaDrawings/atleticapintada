@@ -220,16 +220,18 @@ nav {
 }
 
 /*==========================box-integrantes==========================*/
-.slide-container{
+.slide-container {
     max-width: 1120px;
     width: 100%;
     padding: 40px 0;
-  }
-  .slide-content{
+}
+
+.slide-content {
     margin: 0 40px;
     overflow: hidden;
     border-radius: 25px;
-  }
+}
+
 .box-integrantes {
     width: 100%;
     display: flex;
@@ -264,7 +266,7 @@ nav {
 }
 
 .box-integrantes-item {
-    box-shadow: 1px 2px 6px 0px #07163c;    
+    box-shadow: 1px 2px 6px 0px #07163c;
     display: flex;
     flex-direction: column;
     background-color: aliceblue;
