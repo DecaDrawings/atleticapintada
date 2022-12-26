@@ -282,6 +282,13 @@ nav {
     border-top-right-radius: 60px;
     border-bottom-left-radius: 60px;
     border: 10px solid white;
+    box-shadow: inset 2px 2px 12px 0px grey;
+    position: relative;
+}
+.box-integrantes-item a{
+    position: absolute;
+    right: 5px;
+    max-width: 10px;
 }
 
 .integrante-img {
@@ -300,6 +307,7 @@ nav {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    border: solid 7px;
 }
 
 .integrante-img h2 {
