@@ -219,14 +219,24 @@ nav
 }
 .box-integrantes-title
 {
-    width: 100%;
     padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    width: 100%;
 }
 .box-integrantes-title p{
     color: #111111;
+    font-size: 2rem;
+}
+.box-integrantes-title::after {
+    content: "";
+    top: 68px;
+    width: 120px;
+    left: calc(50% - 61px);
+    height: 7px;
+    color: #07163c;
+    position: absolute;
+    background-color: #07163c;
+    z-index: 20;
 }
 .box-integrantes-content
 {
