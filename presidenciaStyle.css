@@ -241,6 +241,7 @@ nav
 }
 .box-integrantes-content
 {
+    position: relative;
     display: flex;
     flex-direction: row;    
     width: 100%;
