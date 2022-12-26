@@ -68,6 +68,9 @@
     .swiper-navBtn {
         display: none !important;
     }
+    .slide-content{
+        margin: 0 10px;
+      }
     .foot-content {
         grid-template-columns: 100% !important;
         grid-template-rows: auto;
