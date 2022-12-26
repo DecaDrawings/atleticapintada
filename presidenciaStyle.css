@@ -276,7 +276,10 @@ nav {
     flex-direction: column;
     background-color: aliceblue;
     height: 100%;
-    
+    overflow: hidden;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border: 10px solid white;
 }
 
 .integrante-img {
@@ -287,11 +290,14 @@ nav {
     flex-direction: column;
     position: relative;
     text-align: center;
+    background-color: #07163c;
+    padding: 50px;
 }
 
 .integrante-img img {
-    width: 100%;
-    height: 300px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
 
 .integrante-img h2 {
@@ -301,7 +307,7 @@ nav {
     position: absolute;
     bottom: 0;
     margin-bottom: 0;
-    background-color: #07163cdb;
+    background-color: black;
 }
 
 .integrante-informations {
