@@ -65,7 +65,9 @@
         left: 0;
         margin-left: 20px;
     }
-
+    .swiper-navBtn {
+        display: none;
+    }
     .foot-content {
         grid-template-columns: 100% !important;
         grid-template-rows: auto;
