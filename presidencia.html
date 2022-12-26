@@ -177,6 +177,22 @@
     var navTamanho = document.getElementsByClassName("box-menu-buttom")[0].offsetHeight;
     menuVisible.style.top = navTamanho + "px";    
 </script>
-
+<script>
+    var boxRolagem = document.getElementsByClassName("roller-box-integrantes")[0];
+    var buttonNext = document.getElementsByClassName("carousel-control-next")[0];
+    var numeroDeItens = document.getElementsByClassName("box-integrantes-item").length;
+    var contador = 1;
+    buttonNext.addEventListener("click", function(){
+        if(contador == numeroDeItens)
+        {
+            boxRolagem.style.transform = "translateX(-"+ 10 + (numeroDeItens * 20) +"vw)";
+            contador = 1;
+        }
+        else{
+            boxRolagem.style.transform = "translateX("+ 10 + (contador * 20) +"vw)";
+            contador++;
+        }  
+    });
+</script>
 
 </html>
