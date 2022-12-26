@@ -225,6 +225,10 @@ nav {
 }
 
 /*==========================box-integrantes==========================*/
+.swiper-wrapper
+{
+    justify-content: center;
+}
 .slide-container {
     max-width: 1120px;
     width: 100%;
@@ -344,9 +348,7 @@ nav {
 .integrante-informations p:nth-of-type(2) {
     color: #db7900;
 }
-.box-integrantes-item.swiper-slide.swiper-slide-next {
-    transform: scale(1.04);
-}
+
 /*====================================================*/
 
 
