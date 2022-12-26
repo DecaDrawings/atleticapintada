@@ -264,6 +264,12 @@ nav {
     padding-right: 50px;
 }
 
+.swiper-integrantes
+{
+    max-width: 100%;
+    width: 100%;
+    padding: 40px;
+}
 .box-integrantes-item {
     box-shadow: 1px 2px 6px 0px #07163c;
     margin-right: 20px;
