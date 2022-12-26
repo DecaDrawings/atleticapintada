@@ -213,8 +213,8 @@ nav
     width: 100%;
     display: flex;
     flex-direction: column;    
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: #fdc203;
 }
 .box-integrantes-title
@@ -245,6 +245,7 @@ nav
     flex-direction: row;    
     width: 100%;
     justify-content: center;
+    align-items: center;
 }
 .box-integrantes-item
 {
