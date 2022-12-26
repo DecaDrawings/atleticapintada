@@ -251,8 +251,9 @@ nav
 .box-integrantes-item
 {
     box-shadow: 1px 2px 6px 0px #07163c;
-    margin: 20px;
+    margin-right: 20px;
     width: 20vw;
+    height: 100%;
     display: flex;
     flex-direction: column;
     background-color: aliceblue;
@@ -296,6 +297,16 @@ nav
 .integrante-informations p:nth-of-type(2){
     color: #db7900;
 }
+
+.carousel-inner
+{
+    position: relative;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    flex-direction: row;
+}
+
 /* show 3 items */
 .carousel-inner .active,
 .carousel-inner .active + .carousel-item,
