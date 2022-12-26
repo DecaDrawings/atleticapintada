@@ -181,15 +181,15 @@
     var boxRolagem = document.getElementsByClassName("roller-box-integrantes")[0];
     var buttonNext = document.getElementsByClassName("carousel-control-next")[0];
     var numeroDeItens = document.getElementsByClassName("box-integrantes-item").length;
-    var contador = 1;
+    var contador = 1;    
     buttonNext.addEventListener("click", function(){
         if(contador == numeroDeItens)
         {
-            boxRolagem.style.transform = "translateX("+ (numeroDeItens * 20 + 10) +"vw)";
+            boxRolagem.style.transform = "translateX("+ (numeroDeItens * 10) +"vw)";
             contador = 1;
         }
         else{
-            boxRolagem.style.transform = "translateX(-"+ (contador * 20 + 10) +"vw)";
+            boxRolagem.style.transform = "translateX(-"+ (contador * 10) +"vw)";
             contador++;
         }  
     });
