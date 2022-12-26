@@ -24,8 +24,7 @@
     <script src="javascript/jquery.shorten.min.js"></script>
     <script src="javascript/jquery.bcSwipe.js"></script>
     <script src="javascript/jquery.bcSwipe.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" type="text/css" href="swiper/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -90,74 +89,69 @@
     </nav>
     <!-- -------------MAIN------------ -->
     <main>
-        <div class="box-integrantes">
+        <div class="box-integrantes swiper">
             <div class="box-integrantes-title">
                 <p>INTEGRANTES</p>
             </div>
-            <div class="box-integrantes-content">
-                <div class="glider-contain">
-                    <div class="glider">
-                        <div class="box-integrantes-item ativo">
-                            <div class="integrante-img"><img src="gestao/presidencia/vicePresidente.png">
-                                <h2>Vice-Presidente</h2>
-                            </div>
-                            <div class="integrante-informations">
-                                <p>Flávio Henrique</p>
-                                <p>MED25</p>
-                            </div>
-                        </div>
-                        <div class="box-integrantes-item">
-                            <div class="integrante-img"><img src="gestao/presidencia/vicePresidente.png">
-                                <h2>Vice-Presidente</h2>
-                            </div>
-                            <div class="integrante-informations">
-                                <p>Flávio Henrique</p>
-                                <p>MED25</p>
-                            </div>
-                        </div>
-                        <div class="box-integrantes-item">
-                            <div class="integrante-img"><img src="gestao/presidencia/vicePresidente.png">
-                                <h2>Vice-Presidente</h2>
-                            </div>
-                            <div class="integrante-informations">
-                                <p>Flávio Henrique</p>
-                                <p>MED25</p>
-                            </div>
-                        </div>
-                        <div class="box-integrantes-item">
-                            <div class="integrante-img"><img src="gestao/presidencia/vicePresidente.png">
-                                <h2>Vice-Presidente</h2>
-                            </div>
-                            <div class="integrante-informations">
-                                <p>Flávio Henrique</p>
-                                <p>MED25</p>
-                            </div>
-                        </div>
-                        <div class="box-integrantes-item">
-                            <div class="integrante-img"><img src="gestao/presidencia/vicePresidente.png">
-                                <h2>Vice-Presidente</h2>
-                            </div>
-                            <div class="integrante-informations">
-                                <p>Flávio Henrique</p>
-                                <p>MED25</p>
-                            </div>
-                        </div>
-                        <div class="box-integrantes-item">
-                            <div class="integrante-img"><img src="gestao/presidencia/vicePresidente.png">
-                                <h2>Vice-Presidente</h2>
-                            </div>
-                            <div class="integrante-informations">
-                                <p>Flávio Henrique</p>
-                                <p>MED25</p>
-                            </div>
-                        </div>
+            <div class="box-integrantes-content swiper-wrapper">
+                <div class="box-integrantes-item swiper-slide">
+                    <div class="integrante-img"><img src="gestao/presidencia/vicePresidente.png">
+                        <h2>Vice-Presidente</h2>
                     </div>
-
-                    <button aria-label="Previous" class="glider-prev">«</button>
-                    <button aria-label="Next" class="glider-next">»</button>
-                    <div role="tablist" class="dots"></div>
+                    <div class="integrante-informations">
+                        <p>Flávio Henrique</p>
+                        <p>MED25</p>
+                    </div>
+                </div>
+                <div class="box-integrantes-item swiper-slide">
+                    <div class="integrante-img"><img src="gestao/presidencia/vicePresidente.png">
+                        <h2>Vice-Presidente</h2>
+                    </div>
+                    <div class="integrante-informations">
+                        <p>Flávio Henrique</p>
+                        <p>MED25</p>
+                    </div>
+                </div>
+                <div class="box-integrantes-item swiper-slide">
+                    <div class="integrante-img"><img src="gestao/presidencia/vicePresidente.png">
+                        <h2>Vice-Presidente</h2>
+                    </div>
+                    <div class="integrante-informations">
+                        <p>Flávio Henrique</p>
+                        <p>MED25</p>
+                    </div>
+                </div>
+                <div class="box-integrantes-item swiper-slide">
+                    <div class="integrante-img"><img src="gestao/presidencia/vicePresidente.png">
+                        <h2>Vice-Presidente</h2>
+                    </div>
+                    <div class="integrante-informations">
+                        <p>Flávio Henrique</p>
+                        <p>MED25</p>
+                    </div>
+                </div>
+                <div class="box-integrantes-item swiper-slide">
+                    <div class="integrante-img"><img src="gestao/presidencia/vicePresidente.png">
+                        <h2>Vice-Presidente</h2>
+                    </div>
+                    <div class="integrante-informations">
+                        <p>Flávio Henrique</p>
+                        <p>MED25</p>
+                    </div>
+                </div>
+                <div class="box-integrantes-item swiper-slide">
+                    <div class="integrante-img"><img src="gestao/presidencia/vicePresidente.png">
+                        <h2>Vice-Presidente</h2>
+                    </div>
+                    <div class="integrante-informations">
+                        <p>Flávio Henrique</p>
+                        <p>MED25</p>
+                    </div>
                 </div>
             </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
         </div>
     </main>
     <!-- -------------FOOT------------ -->
@@ -212,22 +206,26 @@
     });
     var navTamanho = document.getElementsByClassName("box-menu-buttom")[0].offsetHeight;
     menuVisible.style.top = navTamanho + "px";
-
-
-    window.addEventListener('load', function () {
-        new Glider(document.querySelector('.glider'), {
-            slidesToShow: 5,
-            slidesToScroll: 1,
-            draggable: true,
-            dots: '.dots',
-            arrows: {
-                prev: '.glider-prev',
-                next: '.glider-next'
-            }
-        });
-    });
 </script>
+<script src="swiper/swiper-bundle.min.js"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
 
 </html>
