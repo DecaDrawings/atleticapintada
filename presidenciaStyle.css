@@ -215,13 +215,14 @@ nav
     flex-direction: column;    
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: aliceblue;
+    background-color: #fdc203;
 }
 .box-integrantes-title
 {
     padding: 20px;
     position: relative;
     width: 100%;
+    text-align: center;
 }
 .box-integrantes-title p{
     color: #111111;
