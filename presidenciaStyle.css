@@ -308,7 +308,8 @@ nav
 }
 .carousel-item
 {
-    width: 10vw;
+    margin-right: 20px;
+    width: 6vw !important;
     display: block !important;
     margin-right: 0;
     flex: 0 0 calc(100%/2);
