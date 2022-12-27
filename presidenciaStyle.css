@@ -275,6 +275,7 @@ nav {
     height: 100%;
     position: absolute;
     background-color: #0005106b;
+    top: 0;
 }
 .box-integrantes-title {
     padding: 20px;
