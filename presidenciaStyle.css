@@ -420,11 +420,28 @@ nav {
 {
     padding: 20px;
     background-color: aliceblue;
-    box-shadow: 0px 0px 2px #010a20;
+    border-radius: 50px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    /* border: solid 3px #040b58; */
+    box-shadow: 1px 4px 9px 3px #000b24;
+    position: relative;
+}
+.frase-content::after {
+    content: "";
+    width: 20px;
+    height: 50px;
+    background-color: #fdc203;
+    box-shadow: 2px 0px 3px 0px #d3a30a;
+    position: absolute;
+    left: 50px;
+    top: 0;
 }
 .box-frase-diretoria p{
-   font-size: 1.8rem;
-   color: #07163c;
+    font-size: 1.8rem;
+    color: #07163c;
+    padding-left: 70px;
+    margin-bottom: 0;
 }
 
 
