@@ -265,7 +265,7 @@ nav {
     background-image: url("backgrounds/Background-tipe-yellow.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #fdc203;
+    /*background-color: #fdc203;*/
 }
 
 .box-integrantes-title {
