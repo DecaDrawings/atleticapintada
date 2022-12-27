@@ -228,8 +228,8 @@ var contador = spanImgIntegrantes.length;
 
 for(i = 0; i < contador; i++)
 {
-    var paiDoSpan = spanImgIntegrantes[i].parentNode;
-    var imgPerfil = document.querySelector(paiDoSpan + "img");
+    var spanAtual = spanImgIntegrantes[i];
+    var imgPerfil = spanAtual.nextElementSibling;    
     var srcImgPerfil = imgPerfil.src;
     spanImgIntegrantes.style.backgroundImage="url("+ srcImgPerfil +")"; 
 }
