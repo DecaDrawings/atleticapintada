@@ -428,6 +428,7 @@ nav {
     position: relative;
     display: flex;
     flex-direction: column;
+    width: 80vw;
 }
 .frase-content a{
     display: flex;
