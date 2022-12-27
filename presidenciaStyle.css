@@ -437,6 +437,8 @@ nav {
 .frase-content img
 {
     max-width: 50px;
+    background-color: #07163c;
+    border-radius: 50%;
 }
 .frase-content::after {
     content: "";
@@ -449,11 +451,34 @@ nav {
 }
 .box-frase-diretoria p{
     font-size: 1.8rem;
-    color: #07163c;
-    padding-left: 70px;
+    color: #07163c;    
     margin-bottom: 0;
+    padding-left: 10px;
+}
+.box-frase-title {
+    padding: 20px;
+    padding-bottom: 0;
+    position: relative;
+    width: 100%;
+    text-align: center;
 }
 
+.box-frase-title p {
+    color: aliceblue;
+    font-size: 2rem;
+}
+
+.box-frase-title::after {
+    content: "";
+    top: 68px;
+    width: 120px;
+    left: calc(50% - 61px);
+    height: 7px;
+    color: #07163c;
+    position: absolute;
+    background-color: #fdc203;
+    z-index: 20;
+}
 
 /*====================================================*/
 .foot-content {
