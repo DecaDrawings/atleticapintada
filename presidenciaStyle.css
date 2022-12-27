@@ -415,18 +415,18 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 100px 20px;
+    align-items: center;    
     text-align: center;
 }
-.frase-title p
+.frase-title>p
 {
     font-family: "Bebas Neue";
-    font-size: 1.2rem;
+    font-size: 1.5rem !important;
     color: #07163c;
 }
 .frase-box
 {
+    padding-left: 75px;
     margin-bottom: 20px;
 }
 .frase-content
@@ -438,15 +438,18 @@ nav {
     position: relative;
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
     width: 80vw;
 }
 .frase-content a{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 .frase-content img
 {
-    max-width: 50px;
+    max-width: 1.4rem;
+    max-height: 1.4rem;
     background-color: #07163c;
     border-radius: 50%;
 }
@@ -460,7 +463,7 @@ nav {
     top: 0;
 }
 .box-frase-diretoria p{
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     color: #07163c;    
     margin-bottom: 0;
     padding-left: 10px;
