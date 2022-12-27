@@ -97,7 +97,9 @@
                 <div class="slide-content">
                     <div class="card-wrapper swiper-wrapper">
                         <div class="box-integrantes-item swiper-slide">
-                            <div class="integrante-img"><img src="gestao/presidencia/presidente.png">
+                            <div class="integrante-img">
+                                <span class="integrante-before"></span>
+                                <img src="gestao/presidencia/presidente.png">
                                 <h2>Presidente</h2>
                             </div>
                             <div class="integrante-informations">
@@ -110,7 +112,9 @@
                             </div>                                         
                         </div>
                         <div class="box-integrantes-item swiper-slide">
-                            <div class="integrante-img"><img src="gestao/presidencia/vicePresidente.png">
+                            <div class="integrante-img">
+                                <span class="integrante-before"></span>
+                                <img src="gestao/presidencia/vicePresidente.png">
                                 <h2>Vice-Presidente</h2>
                             </div>
                             <div class="integrante-informations">
@@ -169,7 +173,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
-
+<!--======================MenuCell==========================-->
 <script>
     var navMenuSelect = document.getElementById("menu-buttom");
     var menuVisible = document.getElementsByClassName("nav-box-menu")[0];
@@ -183,8 +187,9 @@
     var navTamanho = document.getElementsByClassName("box-menu-buttom")[0].offsetHeight;
     menuVisible.style.top = navTamanho + "px";
 </script>
-<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
+<!--======================Slider==========================-->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 <script>
     var swiper = new Swiper(".slide-content", {
         slidesPerView: 2,
@@ -215,6 +220,15 @@
             },
         },
     });
+</script>
+<!--======================FundoSlide==========================-->
+<script>
+var spanImgIntegrantes = document.getElementsByClassName("integrante-before")[0];
+var paiDoSpan = spanImgIntegrantes.parentNode;
+var imgPerfil = document.querySelector(paiDoSpan + "img");
+var srcImgPerfil = imgPerfil.src;
+spanImgIntegrantes.style.backgroundImage="url("+ srcImgPerfil +")";
+
 </script>
 
 </html>

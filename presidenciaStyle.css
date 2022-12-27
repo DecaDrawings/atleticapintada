@@ -321,11 +321,20 @@ nav {
     position: relative;
     flex-direction: column;
     position: relative;
-    text-align: center;
-    background-color: #07163c;
+    text-align: center;    
     padding: 50px;
 }
-
+.integrante-before
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-size: cover;
+    filter: blur(1px) brightness(0.2);
+    background-repeat: no-repeat;
+    z-index: -1;
+}
 .integrante-img img {
     width: 200px;
     height: 200px;
