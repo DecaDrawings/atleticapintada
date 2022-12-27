@@ -111,8 +111,8 @@
                             </div>
                             <div class="integrante-icons">
                                 <a href="#"><img src="icons/Avisos/Instagram_48px.png"></a>
-                                <a href="#"><img src="icons/Avisos/whatsapp_48px.png"></a>     
-                            </div>                                         
+                                <a href="#"><img src="icons/Avisos/whatsapp_48px.png"></a>
+                            </div>
                         </div>
                         <div class="box-integrantes-item swiper-slide">
                             <div class="integrante-img">
@@ -126,8 +126,8 @@
                             </div>
                             <div class="integrante-icons">
                                 <a href="#"><img src="icons/Avisos/Instagram_48px.png"></a>
-                                <a href="#"><img src="icons/Avisos/whatsapp_48px.png"></a>     
-                            </div>                                         
+                                <a href="#"><img src="icons/Avisos/whatsapp_48px.png"></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -135,21 +135,39 @@
                 <div class="swiper-button-prev swiper-navBtn"></div>
                 <div class="swiper-pagination"></div>
             </div>
-        </div>       
+        </div>
         <div class="box-frase-diretoria">
             <div class="box-frase-title">
                 <p>CONTATO</p>
             </div>
             <div class="frase-content">
-                <div class="frase-item">
-                    <a class="frase-icon"><img src="icons/Avisos/Instagram_48px.png"><p>cristiano_mvasconcelos</p></a>
-                    <a class="frase-icon"><img src="icons/Avisos/whatsapp_48px.png"><p>(67)</p></a>
+                <div class="frase-box">
+                    <div class="frase-title">
+                        <p>Cristiano Vasconcelos - Presidente</p>
+                    </div>
+                    <div class="frase-item">
+                        <a class="frase-icon"><img src="icons/Avisos/Instagram_48px.png">
+                            <p>cristiano_mvasconcelos</p>
+                        </a>
+                        <a class="frase-icon"><img src="icons/Avisos/whatsapp_48px.png">
+                            <p>(67)</p>
+                        </a>
+                    </div>
                 </div>
-                <div class="frase-item">
-                    <a class="frase-icon"><img src="icons/Avisos/Instagram_48px.png"><p>_sflavio</p></a>
-                    <a class="frase-icon"><img src="icons/Avisos/whatsapp_48px.png"><p>(67)</p></a>
+                <div class="frase-box">
+                    <div class="frase-title">
+                        <p>Flávio Henrique - Vice-Presidente</p>
+                    </div>
+                    <div class="frase-item">
+                        <a class="frase-icon"><img src="icons/Avisos/Instagram_48px.png">
+                            <p>_sflavio</p>
+                        </a>
+                        <a class="frase-icon"><img src="icons/Avisos/whatsapp_48px.png">
+                            <p>(67)</p>
+                        </a>
+                    </div>
                 </div>
-            </div>            
+            </div>
         </div>
     </main>
     <!-- -------------FOOT------------ -->
@@ -176,7 +194,7 @@
             </div>
             <div class="foot-coluna">
                 <p>JIU</p>
-                <p>Bateria</p>                
+                <p>Bateria</p>
                 <p>Fale conosco</p>
             </div>
         </div>
@@ -241,16 +259,15 @@
 </script>
 <!--======================FundoSlide==========================-->
 <script>
-var spanImgIntegrantes = document.getElementsByClassName("integrante-before");
-var contador = spanImgIntegrantes.length;
+    var spanImgIntegrantes = document.getElementsByClassName("integrante-before");
+    var contador = spanImgIntegrantes.length;
 
-for(i = 0; i < contador; i++)
-{
-    var spanAtual = spanImgIntegrantes[i];
-    var imgPerfil = spanAtual.nextElementSibling;    
-    var srcImgPerfil = imgPerfil.src;
-    spanAtual.style.backgroundImage="url("+ srcImgPerfil +")"; 
-}
+    for (i = 0; i < contador; i++) {
+        var spanAtual = spanImgIntegrantes[i];
+        var imgPerfil = spanAtual.nextElementSibling;
+        var srcImgPerfil = imgPerfil.src;
+        spanAtual.style.backgroundImage = "url(" + srcImgPerfil + ")";
+    }
 
 </script>
 

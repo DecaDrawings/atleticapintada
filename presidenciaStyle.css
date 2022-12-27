@@ -419,6 +419,16 @@ nav {
     padding: 100px 20px;
     text-align: center;
 }
+.frase-title p
+{
+    font-family: "Bebas Neue";
+    font-size: 1.2rem;
+    color: #07163c;
+}
+.frase-box
+{
+    margin-bottom: 20px;
+}
 .frase-content
 {
     padding: 20px;
