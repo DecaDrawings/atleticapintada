@@ -397,6 +397,10 @@ nav {
 .integrante-informations p:nth-of-type(2) {
     color: #db7900;
 }
+.swiper-pagination-bullet
+{
+    background: #fff !important;
+}
 
 /*====================================================*/
 
