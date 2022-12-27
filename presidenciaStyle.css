@@ -423,6 +423,7 @@ nav {
     font-family: "Bebas Neue";
     font-size: 1.5rem !important;
     color: #07163c !important;
+    word-break: break-word !important;
 }
 .frase-box
 {
