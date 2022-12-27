@@ -309,6 +309,9 @@ nav {
     display: flex;
     flex-direction: column;
 }
+.integrante-icons a:hover{
+    transform: scale(1.1);
+}
 .integrante-icons img{
     width: 100%;
 }
@@ -342,7 +345,10 @@ nav {
     width: 15vw;
     height: 15vw;
     border-radius: 50%;
-    
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 .integrante-img h2 {
