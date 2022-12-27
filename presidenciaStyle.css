@@ -420,9 +420,7 @@ nav {
 {
     padding: 20px;
     background-color: aliceblue;
-    border-radius: 50px;
-    border-bottom-left-radius: 0;
-    border-top-left-radius: 0;
+    
     /* border: solid 3px #040b58; */
     box-shadow: 1px 4px 9px 3px #000b24;
     position: relative;
