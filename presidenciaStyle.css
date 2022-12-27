@@ -13,6 +13,10 @@
 }
 
 @media only screen and (max-width: 800px) {
+    main {
+        z-index: 0;
+        position: relative;
+    }
     .label-menu-buttom {
         display: initial;
     }
