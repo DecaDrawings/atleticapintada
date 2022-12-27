@@ -409,11 +409,11 @@ nav {
 {
     background-color: #07163c;
     width: 100%;
-    padding: 100px 0;
+    padding: 100px 20px;
     text-align: center;
 }
 .box-frase-diretoria p{
-    font-family: Better Yesterday;
+   font-size: 1.8rem;
 }
 
 
