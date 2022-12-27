@@ -54,7 +54,10 @@
     .menu-list li {
         padding-right: 0;
     }
-
+    .menu-list a
+    {
+        width: 100%;
+    }
     .nav-box-menu ul li {
         width: 100%;
     }
