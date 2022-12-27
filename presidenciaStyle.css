@@ -422,18 +422,26 @@ nav {
 .frase-content
 {
     padding: 20px;
-    background-color: aliceblue;
-    
+    background-color: aliceblue;    
     /* border: solid 3px #040b58; */
     box-shadow: 1px 4px 9px 3px #000b24;
     position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.frase-content a{
+    display: flex;
+    flex-direction: row;
+}
+.frase-content img
+{
+    max-width: 50px;
 }
 .frase-content::after {
     content: "";
     width: 80px;
     height: 100%;
-    background-color: #fdc203;
-    box-shadow: 2px 0px 3px 0px #d3a30a;
+    background-color: #fdc203;    
     position: absolute;
     left: 0;
     top: 0;
