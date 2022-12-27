@@ -223,11 +223,16 @@
 </script>
 <!--======================FundoSlide==========================-->
 <script>
-var spanImgIntegrantes = document.getElementsByClassName("integrante-before")[0];
-var paiDoSpan = spanImgIntegrantes.parentNode;
-var imgPerfil = document.querySelector(paiDoSpan + "img");
-var srcImgPerfil = imgPerfil.src;
-spanImgIntegrantes.style.backgroundImage="url("+ srcImgPerfil +")";
+var spanImgIntegrantes = document.getElementsByClassName("integrante-before");
+var contador = spanImgIntegrantes.length;
+
+for(i = 0; i < contador; i++)
+{
+    var paiDoSpan = spanImgIntegrantes[i].parentNode;
+    var imgPerfil = document.querySelector(paiDoSpan + "img");
+    var srcImgPerfil = imgPerfil.src;
+    spanImgIntegrantes.style.backgroundImage="url("+ srcImgPerfil +")"; 
+}
 
 </script>
 
