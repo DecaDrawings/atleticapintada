@@ -429,8 +429,8 @@ nav {
 }
 .frase-content::after {
     content: "";
-    width: 20px;
-    height: 50px;
+    width: 80px;
+    height: 100%;
     background-color: #fdc203;
     box-shadow: 2px 0px 3px 0px #d3a30a;
     position: absolute;
