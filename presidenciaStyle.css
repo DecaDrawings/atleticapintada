@@ -426,7 +426,7 @@ nav {
 }
 .frase-box
 {
-    padding-left: 75px;
+    
     margin-bottom: 20px;
 }
 .frase-icon
@@ -457,15 +457,7 @@ nav {
     background-color: #07163c;
     border-radius: 50%;
 }
-.frase-content::after {
-    content: "";
-    width: 80px;
-    height: 100%;
-    background-color: #fdc203;    
-    position: absolute;
-    left: 0;
-    top: 0;
-}
+
 .box-frase-diretoria p{
     font-size: 1.4rem;
     word-break: break-all;
