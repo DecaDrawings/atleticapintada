@@ -212,7 +212,7 @@ nav {
     left: 0;
     z-index: 10;
     top: 0;
-    left: 110px;
+    left: 124px;
     background-color: #07163c;
     display: none;
 }
@@ -220,6 +220,7 @@ nav {
 .menu-list li:hover {
     background-color: #0a1f53;
     cursor: grab;
+    color: white;
 }
 
 .box-menu-buttom {

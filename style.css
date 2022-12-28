@@ -278,6 +278,7 @@ nav
 .menu-list li:hover{
     background-color: #0a1f53;
     cursor: grab;
+    color: white;
 }
 .box-menu-buttom
 {
