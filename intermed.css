@@ -76,10 +76,8 @@
     .box-inscricoes
     {
         border: 0 !important;
-    }
-    .content-video{
         width: 100% !important;
-    }
+    }  
     
     .foot-content {
         grid-template-columns: 100% !important;
