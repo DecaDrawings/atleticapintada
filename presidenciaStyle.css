@@ -416,6 +416,10 @@ nav {
     align-items: center;    
     text-align: center;
 }
+.box-frise-title>p
+{
+    padding: 0 !important;
+}
 .frase-title>p
 {
     font-family: "Bebas Neue";
