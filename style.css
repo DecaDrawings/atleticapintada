@@ -254,7 +254,7 @@ nav
 }
 .menu-list li{
     display: flex;
-    padding: 15px;
+    padding: 25px;
     align-items: center;
     justify-content: center;
 }

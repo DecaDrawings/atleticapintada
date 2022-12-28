@@ -194,7 +194,7 @@ nav {
 
 .menu-list li {
     display: flex;
-    padding: 15px;
+    padding: 25px;
     align-items: center;
     justify-content: center;
 }
@@ -212,7 +212,7 @@ nav {
     left: 0;
     z-index: 10;
     top: 0;
-    left: 142px;
+    left: 110px;
     background-color: #07163c;
     display: none;
 }
