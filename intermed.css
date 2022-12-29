@@ -416,10 +416,32 @@ nav {
     border-radius: 20px;
     color: #07163c;
     cursor: grab;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 .box-inscricoes input:hover
 {
     background-color: #fcc81e;
+}
+.box-inscricoes h1
+{
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    color: white;
+    margin-bottom: 30px;
+}
+.box-inscricoes h1::after{
+    content: "";
+    top: 68px;
+    width: 120px;     
+    left: calc(50% - 61px);    
+    height: 7px;
+    color: #fcc81e;
+    position: absolute;
+    background-color: #fdc203;
+    z-index: 20;
 }
 
 /*====================================================*/
