@@ -78,6 +78,10 @@
     list-style-type: none;
     font-family: 'Roboto Condensed', sans-serif;
 }
+main {
+    z-index: 0;
+    position: relative;
+}
 nav::before{
     content: "";
     position: absolute;

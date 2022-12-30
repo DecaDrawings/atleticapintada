@@ -1,14 +1,14 @@
 var homeLink = "index.html"
-var produtosLink = ""
-var parceriasLink = ""
-var eventosLink = ""
-var marketingLink = ""
-var secretariaLink = ""
-var tesourariaLink = ""
+var produtosLink = "#"
+var parceriasLink = "#"
+var eventosLink = "#"
+var marketingLink = "#"
+var secretariaLink = "#"
+var tesourariaLink = "#"
 var presidenciaLink = "presidencia.html"
-var galeriaLink = ""
+var galeriaLink = "#"
 var intermedLink = "intermed.html"
-var jiufmsLink = ""
+var jiufmsLink = "#"
 var bateriaLink = "bateria.html"
 var contatoLink = "contato.html"
 
@@ -75,6 +75,7 @@ for (i = 0; i < listaDeMenus.length; i++) {
 
 $('.menu-list a').each(function () {
     if ($(this).attr('href') == location.href.split("/").slice(-1)) { $(this).addClass('atual'); }
+    if(location.href.split("/").slice(-1) == "") { if($(this).attr('href') == "index.html") { $(this).addClass('atual'); } }
 });
 
 
