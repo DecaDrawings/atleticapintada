@@ -15,7 +15,6 @@
 ** content[i]. IE 7 allows content.charAt(i) This works fine in all modern browsers.
 ** I've also added brackets where they weren't added just for readability (mostly for me).
 */
-
 (function($) {
     $.fn.shorten = function(settings) {
         "use strict";

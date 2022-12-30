@@ -1,0 +1,205 @@
+/*=========================================================*/
+/*=========================================================*/
+@media only screen and (min-width: 800px) {
+.li-diretorias:hover > ul{
+    display: initial;
+    height: auto !important;
+}
+}
+@media only screen and (max-width: 800px) {
+    main {
+        z-index: 0;
+        position: relative;
+    }
+    .label-menu-buttom {
+        display: initial;
+    }
+
+    .label-menu-buttom img {
+        width: 100%;
+    }
+
+    .nav-box-titulo {
+        padding: 20px;
+    }
+
+    .nav-box-menu {
+        position: absolute;
+        top: 83px;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        visibility: hidden;
+    }
+
+    .box-menu-buttom {
+        background-color: rgba(2, 8, 24, 0.8);
+        ;
+        padding: 20px;
+        display: flex !important;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .box-menu-buttom label {
+        max-width: 35px;
+    }
+
+    .box-menu-buttom input {
+        display: none !important;
+    }
+
+    .menu-list li {
+        padding-right: 0;
+    }
+    .menu-list a
+    {
+        width: 100%;
+    }
+    .nav-box-menu ul li {
+        width: 100%;
+    }
+
+    .nav-box-menu ul li ul {
+        position: relative;
+        width: 80%;
+        left: 0;
+        margin-left: 20px;
+    }    
+}
+/*=========================================================*/
+/*=========================================================*/
+*{
+    text-decoration: none !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    color: white;
+    list-style-type: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+nav::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background-image: url(images/FundoNav.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(30%);
+    width: 100%;
+    height: 100%;
+}
+nav
+{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    min-height: 125px;
+    /*background-color: #07163C;*/
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 7px 0px 2px #041133be, 0px 7px 0px 12px #030c22;
+    align-items: center;
+    justify-content: space-around;                     
+}
+.nav-box-titulo
+{   
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.navIconeAtletica
+{
+    margin-right: 30px;
+    max-width: 100px;
+}
+.navTitulos
+{
+    display: flex;
+    flex-direction: column;
+}
+.navTitulos p:nth-child(1)
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.navTitulos p:nth-child(2)
+{
+    font-size: 1.1rem;
+}
+.nav-box-menu
+{    
+    background-color: #020818e6;
+    
+    justify-items: center;
+    width: 100%;
+}
+#menu-buttom:checked ~ .nav-box-menu
+{
+    visibility: visible;
+}
+.nav-box-menuDispositivos
+{
+    display: none;
+}
+.menu-list
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 0px !important;
+}
+.menu-list li{
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.li-diretorias
+{
+    position: relative;
+}
+.menu-list-diretorias
+{
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    top: 0;
+    left: 124px;
+    background-color: #07163c;
+    height: 0px;
+    display: none;    
+}
+.menu-list li:hover{
+    background-color: #0a1f53;
+    cursor: grab;
+    color: white;
+}
+.box-menu-buttom
+{
+    display: none;
+}
+.label-menu-buttom
+{
+    font-size: 20px;
+    color: #1111 !important;
+    cursor: grab;    
+}
+.atual
+{
+    background-color: #fdc203;
+    color: #07163c;
+}
+.atual li{
+    background-color: #fdc203;
+    color: #07163c;
+}
