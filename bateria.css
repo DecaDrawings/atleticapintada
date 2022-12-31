@@ -163,7 +163,7 @@
     border-right: 1px dashed #030b1d;
     text-align: center;
     margin-bottom: 10px;
-
+    cursor: grab;
 }
 
 .item-instrumento:nth-child(8),
@@ -176,6 +176,7 @@
     align-items: center;
     position: relative;
     border-right: 0 !important;
+    cursor: grab;
 }
 
 .item-instrumento img {
@@ -198,21 +199,17 @@
     text-align: center;
     font-size: 0.8rem;
 }
-.item-instrumento:hover .box-superior-ritmista{
-    opacity: 1;
-}
 .box-superior-ritmista
-{
-    opacity: 0;
+{    
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: calc(100% - 40px);
+    height: 0%;    
     background-color: #00050eec;
     transition: 0.25s;
-    cursor: grab;
-    padding: 5px;   
+    cursor: grab;    
     border-left: 3px solid #fdc203;
     overflow-y: auto;
+    
 }
 /* width */
 .box-superior-ritmista::-webkit-scrollbar {

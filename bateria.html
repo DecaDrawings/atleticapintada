@@ -159,7 +159,7 @@
                 <p>Clique para ver os ritmistas</p>
             </div>
             <div class="instrumentos-grid-content">
-                <div class="item-instrumento">
+                <div class="item-instrumento" onclick="onClickRitmista(this)">
                     <div class="box-superior-ritmista">
                         <div class="title-ritmista-superior">
                             <h1>Mestre</h1>
@@ -183,7 +183,7 @@
                         virtuosidade do ritmita que toca repinique.
                     </p>
                 </div>
-                <div class="item-instrumento">
+                <div class="item-instrumento" onclick="onClickRitmista(this)">
                     <div class="box-superior-ritmista">
                         <div class="title-ritmista-superior">
                             <h1>Surdo</h1>
@@ -243,7 +243,7 @@
                         ao ritmo binário do samba.
                     </p>
                 </div>
-                <div class="item-instrumento">
+                <div class="item-instrumento" onclick="onClickRitmista(this)">
                     <div class="box-superior-ritmista">
                         <div class="title-ritmista-superior">
                             <h1>Repique</h1>
@@ -274,7 +274,7 @@
                         surdos.
                     </p>
                 </div>
-                <div class="item-instrumento">
+                <div class="item-instrumento" onclick="onClickRitmista(this)">
                     <div class="box-superior-ritmista">
                         <div class="title-ritmista-superior">
                             <h1>Caixa</h1>
@@ -347,7 +347,7 @@
                         do samba, mantendo a base e definindo a característica de uma Bateria.
                     </p>
                 </div>
-                <div class="item-instrumento">
+                <div class="item-instrumento" onclick="onClickRitmista(this)">
                     <div class="box-superior-ritmista">
                         <div class="title-ritmista-superior">
                             <h1>Tamborim</h1>
@@ -414,7 +414,7 @@
 
                     </p>
                 </div>
-                <div class="item-instrumento">
+                <div class="item-instrumento" onclick="onClickRitmista(this)">
                     <div class="box-superior-ritmista">
                         <div class="title-ritmista-superior">
                             <h1>Chocalho</h1>
@@ -460,7 +460,7 @@
                         dancinhas, em Baterias Universitárias.
                     </p>
                 </div>
-                <div class="item-instrumento">
+                <div class="item-instrumento" onclick="onClickRitmista(this)">
                     <div class="box-superior-ritmista">
                         <div class="title-ritmista-superior">
                             <h1>Agogô</h1>
@@ -500,7 +500,7 @@
                         ao ritmo binário do samba.
                     </p>
                 </div>
-                <div class="item-instrumento">
+                <div class="item-instrumento" onclick="onClickRitmista(this)">
                     <div class="box-superior-ritmista">
                         <div class="title-ritmista-superior">
                             <h1>Terceira Ritmista</h1>
@@ -591,8 +591,23 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
-<!--======================MenuCell==========================-->
+<!--==========================================================-->
 <script>
+    function onClickRitmista(e){        
+        var boxQueVaiAbrir = e.getElementsByClassName("box-superior-ritmista")[0];
+        
+        if(boxQueVaiAbrir.classList.contains("aberto"))
+        {
+            boxQueVaiAbrir.style.height = "0%";
+            boxQueVaiAbrir.classList.remove("aberto");
+        }
+        else
+        {
+            boxQueVaiAbrir.style.height = "100%";
+            boxQueVaiAbrir.classList.add("aberto");
+        }
+       
+    }
 
 </script>
 <!--======================FundoSlide==========================-->
