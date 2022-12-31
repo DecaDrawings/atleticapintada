@@ -1,6 +1,5 @@
 var homeLink = "index.html"
 var produtosLink = "#"
-var parceriasLink = "#"
 var eventosLink = "#"
 var marketingLink = "#"
 var secretariaLink = "#"
@@ -8,14 +7,14 @@ var tesourariaLink = "#"
 var presidenciaLink = "presidencia.html"
 var galeriaLink = "#"
 var intermedLink = "intermed.html"
-var jiufmsLink = "#"
+var parceriasLink = "parceiros.html"
 var bateriaLink = "bateria.html"
 var contatoLink = "contato.html"
 
 /*ADICIONE OS LINKS EM ORDEM EM QUE APARECEM OS ELEMENTOS A*/
-var arrayDeLinks = [homeLink, produtosLink, parceriasLink, eventosLink,
+var arrayDeLinks = [homeLink, produtosLink, eventosLink,
     marketingLink, secretariaLink, tesourariaLink, presidenciaLink, galeriaLink,
-    intermedLink, jiufmsLink, bateriaLink, contatoLink];
+    intermedLink, parceriasLink, bateriaLink, contatoLink];
 
 /*ESSE CODIGO ADICIONA OS ELEMENTOS DO NAV*/
 
@@ -29,10 +28,7 @@ navBoxReferencia.innerHTML = [
     "<ul class=\"menu-list-diretorias\">" +
     "<a class=\"produtos-link\">" +
     "<li class=\"\"><img class=\"navIcons\" >Produtos</li>" +
-    "</a>" +
-    "<a class=\"parcerias-link\">" +
-    "<li class=\"\"><img class=\"navIcons\" >Parcerias</li>" +
-    "</a>" +
+    "</a>" +    
     "<a class=\"eventos-link\">" +
     "<li class=\"\"><img class=\"navIcons\" >Eventos</li>" +
     "</a>" +
@@ -56,8 +52,8 @@ navBoxReferencia.innerHTML = [
     "<a class=\"intermed-link\">" +
     "<li class=\"\"><img class=\"navIcons\" >Intermed</li>" +
     "</a>" +
-    "<a class=\"jiufms-link\">" +
-    "<li class=\"\"><img class=\"navIcons\" >JIUFMS</li>" +
+    "<a class=\"parcerias-link\">" +
+    "<li class=\"\"><img class=\"navIcons\" >Parceiros</li>" +
     "</a>" +
     "<a class=\"bateria-link\">" +
     "<li class=\"\"><img class=\"navIcons\" >Bateria Pintada</li>" +

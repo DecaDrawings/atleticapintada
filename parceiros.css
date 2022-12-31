@@ -1,0 +1,116 @@
+/*========================Content============================*/
+/*========================Content============================*/
+.content
+{
+    background-color: #07163c;
+}
+.title {
+    text-align: center;
+    padding: 40px;
+    position: relative;
+    width: 100%;
+    color: aliceblue;
+}
+
+.title::after {
+    content: "";
+    top: 88px;
+    width: 120px;
+    left: calc(50% - 61px);
+    height: 7px;
+    color: #07163c;
+    position: absolute;
+    background-color: #fdc203;
+    z-index: 20;
+}
+.grid-patrocinadores
+{
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    grid-auto-flow: row;
+    grid-gap: 20px;
+    justify-content: center;
+}
+.patrocinador-item
+{
+    max-width: 300px;
+    max-height: 400px;   
+    min-width: 300px;
+    min-height: 400px;   
+    box-shadow: 2px 1px 12px 1px #000208;
+    cursor: grab;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #07163c;   
+    position: relative; 
+}
+.patrocinador-item:hover>.patrocinador-socialMedia
+{
+    opacity: 1;
+}
+.patrocinador-item::after
+{
+    position: absolute;
+    content: "";
+    width: 14px;
+    height: 26px;
+    background-color: #d70c0c;
+    box-shadow: 1px 1px 3px 0px #140000;
+    left: 11px;
+    top: -5px;
+}
+.img-box
+{
+    width: 300px;    
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.patrocinador-img
+{
+    width: 100%;    
+}
+.text-box
+{
+    position: absolute;
+    bottom: 5px;    
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.patrocinador-text
+{
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: #fdc303;
+    padding: 20px;
+}
+.patrocinador-socialMedia
+{
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000208;
+    z-index: 1;
+    transition: 0.5s;
+}
+.patrocinador-socialMedia a
+{
+    color: #e5f1ff;
+   
+    font-size: 1.2rem;
+}
