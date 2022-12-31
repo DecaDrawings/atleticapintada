@@ -261,7 +261,8 @@
 }
 .aberto + h1::after
 {
-    transform: rotateX(180deg) !important;
+    background-image: url("icons/sort_up_48px.png");
+   
 }
 .title-ritmista-superior h1
 {
