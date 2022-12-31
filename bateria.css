@@ -212,7 +212,7 @@
     transition: 0.25s;
     cursor: grab;    
     border-left: 3px solid #fdc203;
-    overflow-y: auto;
+    overflow-y: scroll;
     
 }
 /* width */
@@ -255,10 +255,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 20px;
-    height: 20px;
-    top: calc(50% -10px);
+    height: 20px;   
     left: 10px;
-
+}
+.aberto + h1::after
+{
+    transform: rotateX(180deg) !important;
 }
 .title-ritmista-superior h1
 {
