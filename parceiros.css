@@ -26,6 +26,7 @@
 .grid-patrocinadores
 {
     padding: 40px;
+    padding-top: 0px;
     display: grid;
     grid-template-columns: repeat(auto-fit, 300px);
     grid-auto-flow: row;
@@ -113,4 +114,80 @@
     color: #e5f1ff;
    
     font-size: 1.2rem;
+}
+/*========================FORMS============================*/
+/*========================FORMS============================*/
+
+.formulario-title {
+    text-align: center;
+    padding: 40px;
+    position: relative;
+    width: 100%;
+    color: #07163c;
+}
+
+.formulario-title::after {
+    content: "";
+    top: 88px;
+    width: 120px;
+    left: calc(50% - 61px);
+    height: 7px;
+    color: #07163c;
+    position: absolute;
+    background-color: #fdc203;
+    z-index: 20;
+}
+.content-formulario
+{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+}
+.box-formulario
+{    
+    
+    padding: 40px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #07163c;
+}
+form 
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    grid-auto-flow: row;    
+    justify-content: center;
+    padding: 20px;  
+    padding-top: 0;
+    width: 60vw;   
+    min-width: 300px;   
+}
+
+.input-email
+{
+    margin-right: 5px;
+    padding: 20px;
+    color: white;
+    outline: none;
+    width: 100%;
+    border: 2px solid white;
+    background-color: #07163c;
+    min-width: 300px;
+}
+.input-submit
+{
+    width: 100%;
+    outline: none;
+    padding: 20px;
+    margin-left: 0;
+    background-color: #fdc203;
+    border: 0;
+    cursor: grab;
+    color: #07163c;
+}
+.input-submit:hover{
+    background-color: #fdc91e;
 }
