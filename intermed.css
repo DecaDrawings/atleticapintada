@@ -15,7 +15,10 @@
 
 /*========================Carrossel============================*/
 /*========================Carrossel============================*/
-
+html
+{
+    overflow-x: hidden;
+}
 #carouselIntermed .carousel-inner,
 #mainSlider .carousel-item.active {
     max-height: 50vw;
