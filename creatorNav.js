@@ -1,3 +1,4 @@
+var loginLink = "index.html"
 var homeLink = "index.html"
 var produtosLink = "#"
 var eventosLink = "#"
@@ -5,14 +6,14 @@ var marketingLink = "#"
 var secretariaLink = "#"
 var tesourariaLink = "#"
 var presidenciaLink = "presidencia.html"
-var galeriaLink = "#"
+var galeriaLink = "galeria.html"
 var intermedLink = "intermed.html"
 var parceriasLink = "parceiros.html"
 var bateriaLink = "bateria.html"
 var contatoLink = "contato.html"
 
 /*ADICIONE OS LINKS EM ORDEM EM QUE APARECEM OS ELEMENTOS A*/
-var arrayDeLinks = [homeLink, produtosLink, eventosLink,
+var arrayDeLinks = [loginLink, homeLink, produtosLink, eventosLink,
     marketingLink, secretariaLink, tesourariaLink, presidenciaLink, galeriaLink,
     intermedLink, parceriasLink, bateriaLink, contatoLink];
 
@@ -21,6 +22,14 @@ var arrayDeLinks = [homeLink, produtosLink, eventosLink,
 var navBoxReferencia = document.getElementsByClassName("nav-box-menu")[0];
 navBoxReferencia.innerHTML = [
     "<ul class=\"menu-list\">" +
+    "<div class=\"nav-box-menuLogin-cell\">" +
+    "<div class=\"foto-de-usuario\">" +
+    "<img src=\"icons/Male User_128px.png\">" +
+    "</div>" +
+    "<div class=\"nome-de-usuario\">" +
+    "<a><p>Entrar</p></a>" +
+    "</div>" +
+    "</div>" +
     "<a class=\"home-link\">" +
     "<li class=\"\"><img class=\"navIcons\" >Página Inicial</li>" +
     "</a>" +
@@ -28,7 +37,7 @@ navBoxReferencia.innerHTML = [
     "<ul class=\"menu-list-diretorias\">" +
     "<a class=\"produtos-link\">" +
     "<li class=\"\"><img class=\"navIcons\" >Produtos</li>" +
-    "</a>" +    
+    "</a>" +
     "<a class=\"eventos-link\">" +
     "<li class=\"\"><img class=\"navIcons\" >Eventos</li>" +
     "</a>" +
@@ -71,7 +80,7 @@ for (i = 0; i < listaDeMenus.length; i++) {
 
 $('.menu-list a').each(function () {
     if ($(this).attr('href') == location.href.split("/").slice(-1)) { $(this).addClass('atual'); }
-    if(location.href.split("/").slice(-1) == "") { if($(this).attr('href') == "index.html") { $(this).addClass('atual'); } }
+    if (location.href.split("/").slice(-1) == "") { if ($(this).attr('href') == "index.html") { $(this).addClass('atual'); } }
 });
 
 
@@ -91,13 +100,13 @@ menuVisible.style.top = navTamanho + "px";
 
 /*ESSE CODIGO ADICIONA O UL INTERNO*/
 var menuDiretorias = document.getElementsByClassName("menu-list-diretorias")[0];
-if ($(window).width() > 800) {    
-    menuDiretorias.style.left = document.getElementsByClassName("li-diretorias")[0].offsetWidth + "px";    
+if ($(window).width() > 800) {
+    menuDiretorias.style.left = document.getElementsByClassName("li-diretorias")[0].offsetWidth + "px";
 }
-else{    
-    $(".li-diretorias").on("click", function(){
+else {
+    $(".li-diretorias").on("click", function () {
         menuDiretorias.style.height = "auto";
         menuDiretorias.style.display = "initial";
-        
+
     });
 }
