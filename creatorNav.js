@@ -1,4 +1,4 @@
-var loginLink = "index.html"
+var loginLink = "login.html"
 var homeLink = "index.html"
 var produtosLink = "#"
 var eventosLink = "#"

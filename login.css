@@ -1,0 +1,63 @@
+.content{
+    position: relative;
+}
+.content::after
+{
+    background-image: url("images/FundoContato.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    filter: brightness(0.1);
+}
+.content-formulario
+{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;   
+    width: 100%;
+    padding: 40px;
+    
+      
+}
+.content-formulario form {
+    padding: 40px;
+    background-color: #07163c;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px 2px #000614;  
+}
+.content-formulario form input
+{
+    padding: 10px;
+    color: white;
+    background-color: #07163c;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    outline: none;
+    cursor: grab;
+}
+.content-formulario form input:nth-of-type(3)
+{
+    min-width: 100%;
+}
+.content-formulario form input:nth-of-type(3):hover
+{
+    background-color: #0a1e50;
+}
+.content-formulario img
+{
+    padding: 20px;
+    max-width: 100px;    
+}
