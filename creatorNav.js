@@ -22,14 +22,14 @@ var arrayDeLinks = [loginLink, homeLink, produtosLink, eventosLink,
 var navBoxReferencia = document.getElementsByClassName("nav-box-menu")[0];
 navBoxReferencia.innerHTML = [
     "<ul class=\"menu-list\">" +
-    "<div class=\"nav-box-menuLogin-cell\">" +
+    "<a class=\"linkLoginA\"><div class=\"nav-box-menuLogin-cell\">" +
     "<div class=\"foto-de-usuario\">" +
     "<img src=\"icons/Male User_128px.png\">" +
     "</div>" +
     "<div class=\"nome-de-usuario\">" +
-    "<a><p>Entrar</p></a>" +
+    "<p>Entrar</p>" +
     "</div>" +
-    "</div>" +
+    "</div></a>" +
     "<a class=\"home-link\">" +
     "<li class=\"\"><img class=\"navIcons\" >Página Inicial</li>" +
     "</a>" +
