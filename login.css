@@ -1,5 +1,7 @@
 .content{
     position: relative;
+    height: 100vh;
+    display: flex;
 }
 .content::after
 {
@@ -36,6 +38,7 @@
     align-items: center;
     border-radius: 20px;
     box-shadow: 3px 3px 2px #000614;  
+    
 }
 .content-formulario form input
 {
@@ -47,6 +50,7 @@
     margin-bottom: 10px;
     outline: none;
     cursor: grab;
+    width: 100%;
 }
 .content-formulario form input:nth-of-type(3)
 {
@@ -59,5 +63,5 @@
 .content-formulario img
 {
     padding: 20px;
-    max-width: 100px;    
+    max-width: 150px;    
 }
