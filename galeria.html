@@ -23,6 +23,7 @@
     <script src="javascript/jquery.shorten.min.js"></script>
     <script src="javascript/jquery.bcSwipe.js"></script>
     <script src="javascript/jquery.bcSwipe.min.js"></script>
+    
 
     <!--   CSS  -->
     <link rel="stylesheet" type="text/css" href="nav.css" />
@@ -90,41 +91,45 @@
                       
                     </div>
                     <div class="content-central">
+                        <div class="lightbox" id="expanded-image">
+                            <span class="btn-close-lightbox" onclick="hideImage()"></span>
+                            <img class="img-expand" src="" onclick="hideImage()">                                
+                        </div>
                         <div class="content-grid-images">
-                            <div class="box-item-img">
+                            <div class="box-item-img" onclick="expandImage(this)">
                                 <img src="images/galeria/intermedCO/_MG_5388.jpg">
-                            </div>
-                            <div class="box-item-img">
+                            </div>                            
+                            <div class="box-item-img" onclick="expandImage(this)">
                                 <img src="images/galeria/intermedCO/_MG_5389.jpg">
                             </div>
-                            <div class="box-item-img">
+                            <div class="box-item-img" onclick="expandImage(this)">
                                 <img src="images/galeria/intermedCO/_MG_5393.jpg">
                             </div>
-                            <div class="box-item-img">
+                            <div class="box-item-img" onclick="expandImage(this)">
                                 <img src="images/galeria/intermedCO/_MG_5394.jpg">
                             </div>
-                            <div class="box-item-img">
+                            <div class="box-item-img" onclick="expandImage(this)">
                                 <img src="images/galeria/intermedCO/_MG_5395.jpg">
                             </div>
-                            <div class="box-item-img">
+                            <div class="box-item-img" onclick="expandImage(this)">
                                 <img src="images/galeria/intermedCO/_MG_5396.jpg">
                             </div>
-                            <div class="box-item-img">
+                            <div class="box-item-img" onclick="expandImage(this)">
                                 <img src="images/galeria/intermedCO/_MG_5397.jpg">
                             </div>
-                            <div class="box-item-img">
+                            <div class="box-item-img" onclick="expandImage(this)">
                                 <img src="images/galeria/intermedCO/_MG_5398.jpg">
                             </div>
-                            <div class="box-item-img">
+                            <div class="box-item-img" onclick="expandImage(this)">
                                 <img src="images/galeria/intermedCO/_MG_5399.jpg">
                             </div>
-                            <div class="box-item-img">
+                            <div class="box-item-img" onclick="expandImage(this)">
                                 <img src="images/galeria/intermedCO/_MG_5400.jpg">
                             </div>
-                            <div class="box-item-img">
+                            <div class="box-item-img" onclick="expandImage(this)">
                                 <img src="images/galeria/intermedCO/_MG_5401.jpg">
                             </div>
-                            <div class="box-item-img">
+                            <div class="box-item-img" onclick="expandImage(this)">
                                 <img src="images/galeria/intermedCO/_MG_5402.jpg">
                             </div>
                         </div>
@@ -176,6 +181,7 @@
 <!--======================FundoSlide==========================-->
 <!-- --------------NAVCREATOR----------- -->
 <script src="creatorNav.js"></script>
+<script src="lightBox.js"></script>
 <!-- --------------END----------- -->
 
 </html>
